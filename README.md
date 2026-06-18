@@ -7,7 +7,7 @@ Easybank is a web app for bank transactions and other payments. All operations a
 To download this project to your machine, use this commnad:
 
 ```bash
-https://github.com/Juanlu3095/Easybank.git
+git clone https://github.com/Juanlu3095/Easybank.git
 ```
 
 ## Development server
