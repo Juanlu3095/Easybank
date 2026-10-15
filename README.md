@@ -26,4 +26,6 @@ This application has two main components:
 
 First, the landing page or homepage for SEO and advertisement.
 
-Second, the actual aplication, a panel to manage your accounts and their operations.
+Second, the actual aplication, a panel to manage your accounts and their operations. It separates admin and client roles.
+
+To see the Figma design of the app click <a href="https://www.figma.com/design/WJEd6edg32H0JofGVIjEh6/EasyBank?m=auto&t=2iOICkdhrIIcktdc-1">here</a>.
