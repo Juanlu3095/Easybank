@@ -11,11 +11,19 @@
     width: 40%;
 }
 
+.logo-img:hover{
+    cursor: pointer;
+}
+
 /* Menu */
 .menu menu{
     list-style-type: none;
     display: flex;
     gap: 1em;
+}
+
+.menu-item:hover{
+    cursor: pointer;
 }
 
 menu .menu-item {
