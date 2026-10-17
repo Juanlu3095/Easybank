@@ -1,58 +1,90 @@
+/* MOBILE */
 footer{
     background-color: var(--easybank-green);
-    padding: 2rem 0 0 0;
+    padding: 1rem 0;
 }
 
 /* 3 COLUMNS */
-.footer-info {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: flex-end;
-}
+    .footer-info {
+        display: flex;
+        flex-direction: column;
+    }
 
-.footer-info div {
-    width: 25%;
-    text-align: center;
-}
+    .footer-info ul{
+        text-align: center;
+        padding: 0;
+    }
 
-.footer-info .legal-txt ul, .footer-info .contact-data ul{
-    list-style-type: none;
-}
+    .footer-info div {
+        text-align: center;
+    }
 
-.footer-info ul li{
-    margin: 1rem 0;
-}
+    .footer-info .legal-txt ul, .footer-info .contact-data ul{
+        list-style-type: none;
+    }
 
-/* Logo */
-.footer-info .logo-footer a img{
-    width: 60%;
-}
+    .footer-info ul li{
+        margin: 1rem 0;
+    }
 
-/* Legal texts */
-.footer-info .legal-txt ul li a{
-    text-decoration: none;
-}
+    /* Logo */
+    .footer-info .logo-footer a img{
+        width: 50%;
+    }
 
-footer a{
-    color: white;
-}
+    /* Legal texts */
+    .footer-info .legal-txt ul li a{
+        text-decoration: none;
+    }
 
-/* Contact info */
-.footer-info .contact-data ul li a {
-    text-decoration: none;
-}
+    footer a{
+        color: white;
+    }
 
-/* FOOTER BOTTOM */
-.footer-bottom{
-    padding: 2rem 0;
-}
+    /* Contact info */
+    .footer-info .contact-data ul li a {
+        text-decoration: none;
+    }
 
-hr{
-    color: white;
-    width: 80%;
-}
+    /* FOOTER BOTTOM */
+    .footer-bottom{
+        padding: 1rem 0;
+    }
 
-.footer-bottom p{
-    text-align: center;
-    color: white;
+    hr{
+        color: white;
+        width: 80%;
+    }
+
+    .footer-bottom p{
+        text-align: center;
+        color: white;
+    }
+
+/* DESKTOP */
+@media screen and (min-width: 1024px){
+    footer{
+        padding: 2rem 0 0 0;
+    }
+
+    /* 3 COLUMNS */
+    .footer-info {
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: flex-end;
+    }
+
+    .footer-info div {
+        width: 25%;
+    }
+
+    /* Logo */
+    .footer-info .logo-footer a img{
+        width: 60%;
+    }
+
+    /* FOOTER BOTTOM */
+    .footer-bottom{
+        padding: 2rem 0;
+    }
 }

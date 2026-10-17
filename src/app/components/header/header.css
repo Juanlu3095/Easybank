@@ -1,8 +1,15 @@
+/* BIOGRAPHY */
+/*
+For media queries: https://raiolanetworks.com/blog/media-queries/
+For ham menu: https://www.youtube.com/shorts/cYO0X5jSg3I
+*/
+
+/* MOBILE */
 #header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 3rem;
+    padding: 1rem;
     background-color: var(--easybank-green);
 }
 
@@ -15,30 +22,108 @@
     cursor: pointer;
 }
 
-/* Menu */
-.menu menu{
-    list-style-type: none;
+/* MENU */
+nav.menu-mobile{
     display: flex;
-    gap: 1em;
+    align-items: center;
+    justify-content: center;
 }
 
-.menu-item:hover{
-    cursor: pointer;
+.menu-desktop{
+    display: none;
 }
 
 menu .menu-item {
-    background: none;
-    border: none;
     color: white;
     font-size: 16px;
     font-weight: 600;
 }
 
-menu li.languages {
-    display: flex;
-    gap: 0.5rem;
+.menu-item{
+    text-decoration: none;
 }
 
-menu li.languages img.country-flag{
-    width: 20%;
+.mobile-menu {
+    list-style-type: none;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top: 80px;
+    right: 0;
+    background-color: var(--easybank-green);
+    display: grid;
+    place-items: center;
+    clip-path: circle(0% at top left);
+    transition: clip-path .4s;
 }
+
+.menu-item:target{
+    clip-path: circle(150% at top left);
+}
+
+/* TABLET */
+@media screen and (min-width: 767px){
+    
+}
+
+/* DESKTOP */
+@media screen and (min-width: 1024px){
+    #header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem 3rem;
+        background-color: var(--easybank-green);
+    }
+
+    /* LOGO */
+    .logo-img{
+        width: 40%;
+    }
+
+    .logo-img:hover{
+        cursor: pointer;
+    }
+
+    /* Menu */
+    .menu-desktop menu{
+        display: flex;
+        gap: 1em;
+    }
+
+    .ham-menu{
+        display: none;
+    }
+
+    menu.mobile-menu{
+        display: none !important;
+    }
+
+    .menu-desktop{
+        display: block;
+    }
+
+    .menu-desktop-list{
+        list-style-type: none;
+    }
+
+    .menu-item:hover{
+        cursor: pointer;
+    }
+
+    menu .menu-item {
+        color: white;
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    menu li.languages {
+        display: flex;
+        gap: 0.5rem;
+    }
+
+    menu li.languages img.country-flag{
+        width: 20%;
+    }
+}
+

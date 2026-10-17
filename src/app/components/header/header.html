@@ -4,31 +4,37 @@
             <img src="/logo/logo_blanco_sinfondo.png" alt="logo-easybank" class="logo-img">
         </a>
     </div>
-    <div class="menu">
-        <menu>
+    
+    <!-- MENU FOR MOBILE AND TABLET -->
+    <nav class="menu-mobile">
+        <a class="ham-menu" href="#mobile-menu">
+            <img src="/icon/menu.png" alt="menu" />
+        </a>
+
+        <menu class="mobile-menu" id="mobile-menu">
             <li>
-                <a href="">
-                    <button class="menu-item">Home</button>
+                <a class="menu-item" href="">
+                    Home
                 </a>
             </li>
-            <li>
-                <a href="#benefits">
-                    <button class="menu-item">Benefits</button>
+             <li>
+                <a class="menu-item" href="">
+                    Benefits
                 </a>
             </li>
-            <li>
-                <a href="#product">
-                    <button class="menu-item">Product</button>
+             <li>
+                <a class="menu-item" href="">
+                    Product
                 </a>
             </li>
-            <li>
-                <a href="#contact">
-                    <button class="menu-item">Contact us</button>
+             <li>
+                <a class="menu-item" href="">
+                    Contact us
                 </a>
             </li>
-            <li>
-                <a href="/login">
-                    <button class="menu-item">Client area</button>
+             <li>
+                <a class="menu-item" href="">
+                    Client area
                 </a>
             </li>
             <li class="languages">
@@ -36,5 +42,40 @@
                 <img src="/icon/gb.webp" alt="english" class="country-flag">
             </li>
         </menu>
-    </div>
+    </nav>
+    
+    <!-- MENU FOR DESKTOP ONLY -->
+    <nav class="menu-desktop">
+        <menu class="menu-desktop-list">
+            <li>
+                <a href="" class="menu-item">
+                    Home
+                </a>
+            </li>
+            <li>
+                <a href="#benefits" class="menu-item">
+                    Benefits
+                </a>
+            </li>
+            <li>
+                <a href="#product" class="menu-item">
+                    Product
+                </a>
+            </li>
+            <li>
+                <a href="#contact" class="menu-item">
+                    Contact us
+                </a>
+            </li>
+            <li>
+                <a href="/login" class="menu-item">
+                    Client area
+                </a>
+            </li>
+            <li class="languages">
+                <img src="/icon/es.webp" alt="español" class="country-flag">
+                <img src="/icon/gb.webp" alt="english" class="country-flag">
+            </li>
+        </menu>
+    </nav>
 </header>
