@@ -7,7 +7,8 @@
     
     <!-- MENU FOR MOBILE AND TABLET -->
     <nav class="menu-mobile">
-        <a class="ham-menu" href="#mobile-menu">
+        <!-- Onclick to add a css class for hamburguer menu animation -->
+        <a class="ham-menu" href="#mobile-menu" onclick="document.getElementById('mobile-menu').classList.toggle('mobile-menu-visible');">
             <img src="/icon/menu.png" alt="menu" />
         </a>
 
@@ -37,7 +38,7 @@
                     Client area
                 </a>
             </li>
-            <li class="languages">
+            <li class="languages-mobile">
                 <img src="/icon/es.webp" alt="español" class="country-flag">
                 <img src="/icon/gb.webp" alt="english" class="country-flag">
             </li>

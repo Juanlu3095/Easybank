@@ -2,6 +2,9 @@
 /*
 For media queries: https://raiolanetworks.com/blog/media-queries/
 For ham menu: https://www.youtube.com/shorts/cYO0X5jSg3I
+              https://css-tricks.com/clipping-clipping-and-more-clipping/
+              https://css-tricks.com/animating-with-clip-path/
+              https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/clip-path
 */
 
 /* MOBILE */
@@ -50,45 +53,42 @@ menu .menu-item {
     bottom: 0;
     top: 80px;
     right: 0;
+    height: 100vh;
     background-color: var(--easybank-green);
-    display: grid;
-    place-items: center;
-    clip-path: circle(0% at top left);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6rem;
+    clip-path: circle(0% at top right); /* Beginning ham animation */
     transition: clip-path .4s;
+    padding: 0;
 }
 
-.menu-item:target{
-    clip-path: circle(150% at top left);
+.mobile-menu-visible{
+    clip-path: circle(150% at top left); /* Ending ham animation */
 }
 
-/* TABLET */
-@media screen and (min-width: 767px){
-    
+.languages-mobile{
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.languages-mobile img {
+    width: 20%;
 }
 
 /* DESKTOP */
 @media screen and (min-width: 1024px){
     #header {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
         padding: 1rem 3rem;
-        background-color: var(--easybank-green);
-    }
-
-    /* LOGO */
-    .logo-img{
-        width: 40%;
-    }
-
-    .logo-img:hover{
-        cursor: pointer;
     }
 
     /* Menu */
     .menu-desktop menu{
         display: flex;
-        gap: 1em;
+        gap: 2em;
+        align-items: center;
     }
 
     .ham-menu{
@@ -107,6 +107,10 @@ menu .menu-item {
         list-style-type: none;
     }
 
+    .menu-item{
+    text-decoration: none;
+}
+
     .menu-item:hover{
         cursor: pointer;
     }
@@ -123,7 +127,8 @@ menu .menu-item {
     }
 
     menu li.languages img.country-flag{
-        width: 20%;
+        width: 30px;
+        height: 30px;
     }
 }
 
