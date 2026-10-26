@@ -66,6 +66,10 @@
         width: 95%;
     }
 
+    article{
+        border-radius: 0.5rem;
+    }
+
     /* BENEFITS */
     #benefits{
         padding: 4rem;
@@ -112,6 +116,52 @@
 
     /* PRODUCT */
     #product{
-        padding: 4rem;
+        padding: 0 4rem 4rem 4rem;
+        background-color: var(--easybank-gray);
+    }
+
+    .product-list{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 4rem;
+        margin: 2rem 0;
+    }
+
+    .product-body{
+        text-align: center;
+        background-color: white;
+        padding: 2rem 10rem;
+    }
+
+    .product-body h2{
+        font-size: 40px;
+        color: var(--easybank-green);
+    }
+
+    .product-body p.product-section-subtitle{
+        font-size: 20px;
+        margin: 2rem 0 3rem 0;
+    }
+
+    article.product-item{
+        background-color: var(--easybank-green);
+    }
+
+    article img.product-image{
+        width: 100%;
+        object-fit: cover;
+        border-radius: 0.5rem;
+    }
+
+    article h3.product-title{
+        font-size: 32px;
+        color: white;
+        margin: 2rem;
+    }
+
+    article p.product-detail{
+        color: white;
+        margin: 2rem;
     }
 }    
