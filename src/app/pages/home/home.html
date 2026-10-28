@@ -112,7 +112,53 @@
     </section>
 
     <section id="contact">
+        <div class="contact-body">
+            <div class="contact-image">
+                <img src="/img/we-help-you.webp" alt="we-help-you" class="we-help-you">
+            </div>
+            <div class="contact-form">
+                <h2>Still have doubts?</h2>
+                <p class="contact-form-subtitle">Get in touch with us!</p>
+                <form (ngSubmit)="sendContactForm()">
 
+                    <div class="name-surname">
+                        <div class="name-input">
+                            <label for="name">Name</label>
+                            <br>
+                            <!-- If ngModel is inside a form tag, input must have an name attribute -->
+                            <input type="text" [(ngModel)]="name" name="name">
+                        </div>
+    
+                        <div class="surname-input">
+                            <label for="surname">Surname</label>
+                            <br>
+                            <input type="text" [(ngModel)]="surname" name="surname">
+                        </div>
+                    </div>
+
+                    <div class="email-phone">
+                        <div class="email-input">
+                            <label for="email">Email</label>
+                            <br>
+                            <input type="email" [(ngModel)]="email" name="email">
+                        </div>
+    
+                        <div class="phone-input">
+                            <label for="phone">Phone</label>
+                            <br>
+                            <input type="text" [(ngModel)]="phone" name="phone">
+                        </div>
+                    </div>
+
+                    <label for="message">Message</label>
+                    <textarea type="text" [(ngModel)]="message" name="message" rows="10"></textarea>
+
+                    <button type="submit" class="btn-submit">
+                        Submit
+                    </button>
+                </form>
+            </div>
+        </div>
     </section>
 
 </main>

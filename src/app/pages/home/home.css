@@ -164,4 +164,86 @@
         color: white;
         margin: 2rem;
     }
+
+    /* CONTACT */
+    #contact {
+        padding: 0 4rem 4rem 4rem;
+        background-color: var(--easybank-gray);
+    }
+
+    div.contact-body{
+        display: flex;
+        background-color: white;
+    }
+
+    /* Contact image */
+    div.contact-image, div.contact-form{
+        width: 50%;
+        border-radius: 0.5rem;
+    }
+
+    div.contact-image img{
+        width: 100%;
+        object-fit: cover;
+        border-radius: 0.5rem 0 0 0.5rem;
+    }
+
+    /* Contact form */
+    div.contact-form{
+        padding: 2rem 0;
+    }
+
+    div.contact-form h2{
+        font-size: 40px;
+        color: var(--easybank-green);
+        text-align: center;
+    }
+
+    div.contact-form p {
+        text-align: center;
+    }
+
+    div.contact-form p.contact-form-subtitle{
+        font-size: 20px;
+        margin: 2rem 0 3rem 0;
+    }
+
+    .contact-form form{
+        border: 1px solid;
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        padding: 2rem;
+        margin: 2rem;
+    }
+
+    input, textarea{
+        margin: 1rem 0;
+    }
+
+    .name-surname, .email-phone{
+        display: flex;
+        width: 100%;
+        gap: 2rem;
+        margin: 0.5rem 0;
+    }
+
+    .name-input, .surname-input, .email-input, .phone-input{
+        width: 50%;
+    }
+
+    .name-input input, .surname-input input, .email-input input, .phone-input input{
+        width: 98%;
+    }
+
+    .btn-submit{
+        margin: auto;
+        width: 7rem;
+        color: white;
+        background-color: var(--easybank-green);
+        border: 1px solid;
+        border-color: var(--easybank-green);
+        border-radius: 10px;
+        padding: 0.5rem 1rem;
+    }
 }    
