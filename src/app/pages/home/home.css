@@ -210,6 +210,7 @@
 
     .contact-form form{
         border: 1px solid;
+        border-radius: 5px;
         display: flex;
         flex-direction: column;
         gap: 0.5rem;
@@ -234,6 +235,16 @@
 
     .name-input input, .surname-input input, .email-input input, .phone-input input{
         width: 98%;
+        height: 2rem;
+        background-color: #EBF4F2;
+        border: 5px;
+        border-radius: 0.5rem;
+    }
+
+    textarea{
+        border: 5px;
+        border-radius: 0.5rem;
+        background-color: #EBF4F2;
     }
 
     .btn-submit{

@@ -126,13 +126,13 @@
                             <label for="name">Name</label>
                             <br>
                             <!-- If ngModel is inside a form tag, input must have an name attribute -->
-                            <input type="text" [(ngModel)]="name" name="name">
+                            <input type="text" [(ngModel)]="name" name="name" placeholder="Enter your name">
                         </div>
     
                         <div class="surname-input">
                             <label for="surname">Surname</label>
                             <br>
-                            <input type="text" [(ngModel)]="surname" name="surname">
+                            <input type="text" [(ngModel)]="surname" name="surname" placeholder="Enter your surname">
                         </div>
                     </div>
 
@@ -140,18 +140,19 @@
                         <div class="email-input">
                             <label for="email">Email</label>
                             <br>
-                            <input type="email" [(ngModel)]="email" name="email">
+                            <input type="email" [(ngModel)]="email" name="email" placeholder="Enter your email">
                         </div>
     
                         <div class="phone-input">
                             <label for="phone">Phone</label>
                             <br>
-                            <input type="text" [(ngModel)]="phone" name="phone">
+                            <input type="text" [(ngModel)]="phone" name="phone" placeholder="Enter your phone">
                         </div>
                     </div>
 
                     <label for="message">Message</label>
-                    <textarea type="text" [(ngModel)]="message" name="message" rows="10"></textarea>
+                    <textarea type="text" [(ngModel)]="message" name="message" rows="10" placeholder="Ask your question...">
+                    </textarea>
 
                     <button type="submit" class="btn-submit">
                         Submit
