@@ -151,8 +151,8 @@
                     </div>
 
                     <label for="message">Message</label>
-                    <textarea type="text" [(ngModel)]="message" name="message" rows="10" placeholder="Ask your question...">
-                    </textarea>
+                    <!-- Be careful, if textarea is not in only one line, angular hydration will have problems -->
+                    <textarea [(ngModel)]="message" name="message" rows="10" placeholder="Ask your question..."></textarea>
 
                     <button type="submit" class="btn-submit">
                         Submit

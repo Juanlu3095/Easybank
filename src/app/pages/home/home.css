@@ -209,7 +209,8 @@
     }
 
     .contact-form form{
-        border: 1px solid;
+        border: 2px solid;
+        border-color: var(--easybank-green);
         border-radius: 5px;
         display: flex;
         flex-direction: column;
