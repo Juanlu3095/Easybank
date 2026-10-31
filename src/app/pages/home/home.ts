@@ -3,6 +3,7 @@ import { Header } from '../../components/header/header';
 import { Footer } from '../../components/footer/footer';
 import { FormsModule } from '@angular/forms';
 import { ContactData } from '../../contracts/forms/contact-data';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-home',
@@ -19,6 +20,14 @@ export class Home implements OnInit{
   phone: string = "";
   message: string = "";
 
+  constructor(private router: Router){
+
+  }
+
+  ngOnInit(): void {
+    
+  }
+
   sendContactForm(){
     const formData = new ContactData(
       this.name,
@@ -30,8 +39,9 @@ export class Home implements OnInit{
     console.log(formData.getName())
   }
 
-  ngOnInit(): void {
-    
+  goToRegister(){
+    // Must create url in routes for register
+    this.router.navigate(['legal-notice'])
   }
 
 }

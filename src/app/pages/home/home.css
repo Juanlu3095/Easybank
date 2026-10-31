@@ -1,4 +1,57 @@
 /* MOBILE */
+/* Hero section */
+#hero{
+    background-color: var(--easybank-green);
+    padding: 1rem 0 3rem;
+}
+
+/* Hero right */
+.hero-right{
+    margin: 3rem 0 -3.5rem;
+    text-align: center;
+}
+
+.hero-right img{
+    width: 100%;
+}
+
+/* Hero left */
+.hero-left{
+    background-color: var(--easybank-green);
+    text-align: center;
+}
+
+.hero-left p{
+    margin: 0 0 0.75rem 0;
+    color: white;
+    font-size: 30px;
+}
+
+div.hero-left span.cta-sub{
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+h1{
+    color: white;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+div.hero-left button.btn-createaccount{
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 0.5rem 1rem;
+    font-size: 14px;
+    color: var(--easybank-green);
+}
+
+div.hero-left button.btn-createaccount:hover{
+    background-color: var(--easybank-green);
+    color: white;
+    cursor: pointer;
+}
 
 /* TABLET */
 @media screen and (min-width: 767px){
@@ -8,9 +61,9 @@
 /* DESKTOP */
 @media screen and (min-width: 1024px){
     #hero{
-        background-color: var(--easybank-green);
         display: flex;
         flex-direction: row;
+        padding: 0;
     }
     
     /* HERO SECTION */
@@ -24,44 +77,28 @@
     
     /* HERO LEFT */
     div.hero-left p.cta{
-        color: white;
         font-size: 40px;
-        text-align: center;
     }
     
     div.hero-left span.cta-sub{
-        color: white;
         font-size: 20px;
-        font-weight: 400;
         text-align: center;
     }
     
     h1{
-        color: white;
         font-size: 60px;
-        font-weight: 800;
     }
-    
+
     div.hero-left button.btn-createaccount{
-        border: 1px solid white;
-        border-radius: 10px;
-        padding: 0.5rem 1rem;
-    }
-    
-    div.hero-left button.btn-createaccount:hover{
-        background-color: var(--easybank-green);
-    }
-    
-    div.hero-left button.btn-createaccount a{
-        color: var(--easybank-green);
         font-size: 16px;
-        text-decoration: none;
     }
     
-    div.hero-left button.btn-createaccount a:hover{
-        color: white;
+    /* HERO RIGHT */
+    .hero-right{
+        margin: 0;
+        text-align: center;
     }
-    
+
     .hero-right img{
         width: 95%;
     }
