@@ -24,18 +24,18 @@
 .hero-left p{
     margin: 0 0 0.75rem 0;
     color: white;
-    font-size: 30px;
+    font-size: var(--lengthLg1);
 }
 
 div.hero-left span.cta-sub{
     color: white;
-    font-size: 16px;
+    font-size: var(--lengthMd1);
     font-weight: 400;
 }
 
 h1{
     color: white;
-    font-size: 40px;
+    font-size: var(--lengthLg2);
     font-weight: 800;
 }
 
@@ -43,7 +43,7 @@ div.hero-left button.btn-createaccount{
     border: 1px solid white;
     border-radius: 10px;
     padding: 0.5rem 1rem;
-    font-size: 14px;
+    font-size: var(--lengthMd1);
     color: var(--easybank-green);
 }
 
@@ -51,6 +51,104 @@ div.hero-left button.btn-createaccount:hover{
     background-color: var(--easybank-green);
     color: white;
     cursor: pointer;
+}
+
+/* BENEFITS */
+#benefits{
+    padding: 2rem 1rem;
+    background-color: var(--easybank-gray);
+}
+
+.benefits-body{
+    text-align: center;
+    background-color: white;
+    padding: 0.5rem 0;
+}
+
+.benefits-body h2{
+    font-size: var(--lengthLg1);
+    color: var(--easybank-green);
+}
+
+.benefits-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem
+}
+
+article.benefit-item{
+    background-color: var(--easybank-green);
+    padding: 0.5rem;
+    margin: 1rem;
+    flex: 0 0 30%;
+}
+
+article.benefit-item img{
+    width: 50%;
+}
+
+.benefit-title{
+    font-size: var(--lengthLg1);
+    color: white;
+}
+
+p.benefit-detail{
+    font-size: var(--lengthMd1);
+    color: white;
+}
+
+/* PRODUCT */
+#product{
+    padding: 1rem 1rem 2rem 1rem;
+    background-color: var(--easybank-gray);
+}
+
+.product-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.product-body{
+    text-align: center;
+    background-color: white;
+    padding: 1rem;
+}
+
+.product-body h2{
+    font-size: var(--lengthLg1);
+    color: var(--easybank-green);
+}
+
+.product-body p.product-section-subtitle{
+    font-size: var(--lengthMd1);
+    margin: 2rem 0 3rem 0;
+}
+
+article.product-item{
+    background-color: var(--easybank-green);
+}
+
+article img.product-image{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 0.5rem;
+}
+
+article h3.product-title{
+    font-size: var(--lengthLg1);
+    color: white;
+    margin: 2rem 0 1rem 0;
+}
+
+article p.product-detail{
+    font-size: var(--lengthMd1);
+    color: white;
+    margin: 2rem;
 }
 
 /* TABLET */
@@ -77,20 +175,20 @@ div.hero-left button.btn-createaccount:hover{
     
     /* HERO LEFT */
     div.hero-left p.cta{
-        font-size: 40px;
+        font-size: var(--lengthLg2);
     }
     
     div.hero-left span.cta-sub{
-        font-size: 20px;
+        font-size: var(--lengthMd2);
         text-align: center;
     }
     
     h1{
-        font-size: 60px;
+        font-size: var(--lengthLg3);
     }
 
     div.hero-left button.btn-createaccount{
-        font-size: 16px;
+        font-size: var(--lengthMd1);
     }
     
     /* HERO RIGHT */
@@ -110,95 +208,53 @@ div.hero-left button.btn-createaccount:hover{
     /* BENEFITS */
     #benefits{
         padding: 4rem;
-        background-color: var(--easybank-gray);
     }
 
     .benefits-body{
-        text-align: center;
-        background-color: white;
         padding: 2rem 0;
     }
 
     .benefits-body h2{
-        font-size: 40px;
-        color: var(--easybank-green);
+        font-size: var(--lengthLg2);
     }
 
     .benefits-list{
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
+        flex-direction: row;
     }
 
     article.benefit-item{
-        background-color: var(--easybank-green);
         padding: 2rem;
         margin: 2rem;
-        flex: 0 0 30%;
     }
 
     article.benefit-item img{
         width: 40%;
     }
 
-    .benefit-title{
-        font-size: 32px;
-        color: white;
-    }
-
-    p.benefit-detail{
-        font-size: 18px;
-        color: white;
-    }
-
     /* PRODUCT */
     #product{
         padding: 0 4rem 4rem 4rem;
-        background-color: var(--easybank-gray);
     }
 
     .product-list{
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        flex-direction: row;
         gap: 4rem;
         margin: 2rem 0;
     }
 
     .product-body{
-        text-align: center;
-        background-color: white;
         padding: 2rem 10rem;
     }
 
     .product-body h2{
-        font-size: 40px;
-        color: var(--easybank-green);
+        font-size: var(--lengthLg2);
     }
 
     .product-body p.product-section-subtitle{
-        font-size: 20px;
-        margin: 2rem 0 3rem 0;
-    }
-
-    article.product-item{
-        background-color: var(--easybank-green);
-    }
-
-    article img.product-image{
-        width: 100%;
-        object-fit: cover;
-        border-radius: 0.5rem;
+        font-size: var(--lengthMd2);
     }
 
     article h3.product-title{
-        font-size: 32px;
-        color: white;
-        margin: 2rem;
-    }
-
-    article p.product-detail{
-        color: white;
         margin: 2rem;
     }
 
@@ -241,7 +297,7 @@ div.hero-left button.btn-createaccount:hover{
     }
 
     div.contact-form p.contact-form-subtitle{
-        font-size: 20px;
+        font-size: var(--lengthMd2);
         margin: 2rem 0 3rem 0;
     }
 

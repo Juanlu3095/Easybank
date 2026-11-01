@@ -9,4 +9,14 @@ body {
 :root {
     --easybank-green: #197A69;
     --easybank-gray: #F7F7F7;
+    --lengthSm1: 0.25rem; /* 4px */
+    --lengthSm2: 0.5rem; /* 8px */
+    --lengthSm3: 0.75rem; /* 12px */
+    --lengthMd1: 1rem; /* 16px */
+    --lengthMd2: 1.25rem; /* 20px */
+    --lengthMd3: 1.5rem; /* 24px */
+    --lengthLg1: 2rem; /* 32px */
+    --lengthLg2: 3rem; /* 48px */
+    --lengthLg3: 4rem; /* 64px */
+    --lengthLg4: 5rem; /* 80px */
 }
