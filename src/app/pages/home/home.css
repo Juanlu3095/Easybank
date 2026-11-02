@@ -131,12 +131,13 @@ p.benefit-detail{
 
 article.product-item{
     background-color: var(--easybank-green);
+    border-radius: 0.5rem;
 }
 
 article img.product-image{
     width: 100%;
     object-fit: cover;
-    border-radius: 0.5rem;
+    border-radius: 0.5rem 0.5rem 0 0;
 }
 
 article h3.product-title{
@@ -175,68 +176,160 @@ div.contact-image img{
 }
 
 /* Contact form */
-    div.contact-form{
-        padding: 2rem 0;
-    }
+div.contact-form{
+    padding: 2rem 0;
+}
 
-    div.contact-form h2{
-        font-size: var(--lengthLg1);
-        color: var(--easybank-green);
-        text-align: center;
-    }
+div.contact-form h2{
+    font-size: var(--lengthLg1);
+    color: var(--easybank-green);
+    text-align: center;
+}
 
-    div.contact-form p {
-        text-align: center;
-    }
+div.contact-form p {
+    text-align: center;
+}
 
-    div.contact-form p.contact-form-subtitle{
-        font-size: var(--lengthMd2);
-        margin: 2rem 0 3rem 0;
-    }
+div.contact-form p.contact-form-subtitle{
+    font-size: var(--lengthMd1);
+    margin: 2rem 0 3rem 0;
+}
 
-    .contact-form form{
-        border: 2px solid;
-        border-color: var(--easybank-green);
-        border-radius: 5px;
-        display: flex;
-        flex-direction: column;
-        gap: 0.5rem;
-        padding: 2rem;
-        margin: 2rem;
-    }
+.contact-form form{
+    border: 2px solid;
+    border-color: var(--easybank-green);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 2rem;
+    margin: 2rem;
+}
 
-    input, textarea{
-        margin: 1rem 0;
-    }
+input, textarea{
+    margin: 1rem 0;
+}
 
-    .name-input input, .surname-input input, .email-input input, .phone-input input{
-        width: 98%;
-        height: 2rem;
-        background-color: #EBF4F2;
-        border: 5px;
-        border-radius: 0.5rem;
-    }
+.name-input input, .surname-input input, .email-input input, .phone-input input{
+    width: 98%;
+    height: 2rem;
+    background-color: #EBF4F2;
+    border: 5px;
+    border-radius: 0.5rem;
+}
 
-    textarea{
-        border: 5px;
-        border-radius: 0.5rem;
-        background-color: #EBF4F2;
-    }
+textarea{
+    border: 5px;
+    border-radius: 0.5rem;
+    background-color: #EBF4F2;
+}
 
-    .btn-submit{
-        margin: auto;
-        width: 7rem;
-        color: white;
-        background-color: var(--easybank-green);
-        border: 1px solid;
-        border-color: var(--easybank-green);
-        border-radius: 10px;
-        padding: 0.5rem 1rem;
-    }
+.btn-submit{
+    margin: auto;
+    width: 7rem;
+    color: white;
+    background-color: var(--easybank-green);
+    border: 1px solid;
+    border-color: var(--easybank-green);
+    border-radius: 10px;
+    padding: 0.5rem 1rem;
+}
 
 /* TABLET */
 @media screen and (min-width: 767px){
-    
+    /* HERO SECTION */
+    #hero{
+        display: flex;
+        flex-direction: row;
+        padding: 0;
+    }
+
+    /* Hero left */
+    .hero-left p{
+        font-size: var(--lengthMd3);
+    }
+
+    div.hero-left span.cta-sub{
+        font-size: var(--lengthMd1);
+    }
+
+    h1{
+        font-size: var(--lengthLg1);
+    }
+
+    div.hero-left button.btn-createaccount{
+        font-size: var(--lengthSm3);
+    }
+
+    /* Hero right */
+    .hero-right{
+        margin: 0;
+    }
+
+    #hero div.hero-right, #hero div.hero-left{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* Benefits */
+    .benefits-body{
+        padding: 1rem;
+    }
+
+    .benefits-body h2{
+        font-size: var(--lengthLg1);
+    }
+
+    .benefits-list{
+        flex-direction: row;
+    }
+
+    article.benefit-item{
+        flex: 0 0 40%;
+    }
+
+    /* Product */
+    .product-list{
+        flex-direction: row;
+        gap: 1rem;
+    }
+
+    article.product-item{
+        display: flex;
+        flex-direction: column;
+        min-height: 400px;
+    }
+
+    article h3.product-title{
+        font-size: var(--lengthMd3);
+        color: white;
+        margin: 1rem 0 1rem 0;
+    }
+
+    article p.product-detail{
+        font-size: var(--lengthMd1);
+        color: white;
+        margin: 1rem;
+    }
+
+    /* CONTACT */
+    .name-surname, .email-phone{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        gap: 2rem;
+    }
+
+    .name-input, .surname-input, .email-input, .phone-input{
+        width: 50%;
+    }
+
+    p.contact-form-subtitle{
+        font-size: var(--lengthMd1) !important;
+    }
 }
 
 /* DESKTOP */
@@ -338,7 +431,11 @@ div.contact-image img{
     }
 
     article h3.product-title{
-        margin: 2rem;
+        margin: 2rem 1rem 0;
+    }
+
+    article p.product-detail{
+        margin: 2rem 1rem 3rem 1rem;
     }
 
     /* CONTACT */
