@@ -1,0 +1,25 @@
+name: deploy on push
+
+on:
+    push:
+        branches:
+            - main
+
+permissions:
+  contents: read
+
+jobs:
+    build:
+        runs-on: ubuntu-latest
+
+        name: Start docker
+
+        steps:
+            - name: Checkout code
+              uses: actions/checkout@v3
+            
+            - name: Create docker file
+              run: docker build -t Easybank .
+
+            - name: Run container
+              run: docker run -d --name easybank-container -p 4200:80 Easybank
