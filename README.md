@@ -20,6 +20,42 @@ ng serve
 
 Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
 
+## Docker
+
+First, Docker Desktop must be on. Then, execute the next command in a terminal from the dockerfile's folder:
+
+```bash
+docker build -t image-name .
+```
+
+where "image-name" is the name of the image you select. "." refers to the actual folder, where the dockerfile is.
+
+Now, you must create the container and add the image you just created:
+
+```bash
+docker run -d --name container-name -p 4200:80 image-name
+```
+
+where:
+
+- container-name is the name you give to container
+- -p 4200:80, 4200 is the port you open in your machine and 80 is the port exposed in dockerfile
+- image-name is the image name from the image to use
+
+To start container service:
+
+```bash
+docker start -a container-name
+```
+
+where container-name is the name of container to start.
+
+To stop the service:
+
+```bash
+docker stop container-name
+```
+
 ## Design
 
 This application has two main components:
