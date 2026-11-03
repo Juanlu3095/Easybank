@@ -19,7 +19,7 @@ jobs:
               uses: actions/checkout@v3
             
             - name: Create docker file
-              run: docker build -t Easybank .
+              run: docker build -t easybank .
 
             - name: Run container
-              run: docker run -d --name easybank-container -p 4200:80 Easybank
+              run: docker run -d --name easybank-container -p 4200:80 easybank
