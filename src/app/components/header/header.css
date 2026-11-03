@@ -62,6 +62,7 @@ menu .menu-item {
     clip-path: circle(0% at top right); /* Beginning ham animation */
     transition: clip-path .4s;
     padding: 0;
+    z-index: 999;
 }
 
 .mobile-menu-visible{
