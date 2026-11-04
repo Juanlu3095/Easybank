@@ -23,5 +23,5 @@ jobs:
 
             - name: Push image to docker hub
               run: |
-                docker login -u ${{ secrets.DOCKER_USER }} --password-stdin ${{ secrets.DOCKER_PASS }}
+                docker login --username ${{ secrets.DOCKER_USER }} --password-stdin ${{ secrets.DOCKER_PASS }}
                 docker push ${{ secrets.DOCKER_USER }}/easybank:latest
