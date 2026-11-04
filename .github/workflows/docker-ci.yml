@@ -19,9 +19,9 @@ jobs:
               uses: actions/checkout@v4
             
             - name: Create docker file
-              run: docker build -t easybank .
+              run: docker build -t ${{ secrets.DOCKER_USER }}/easybank:latest .
 
             - name: Push image to docker hub
               run: |
-                docker login -u ${{ secrets.DOCKER_USER }} -p ${{ secrets.DOCKER_PASS }}
-                docker push ${{ secrets.DOCKER_USER }}/easybank
+                docker login -u ${{ secrets.DOCKER_USER }} --password-stdin ${{ secrets.DOCKER_PASS }}
+                docker push ${{ secrets.DOCKER_USER }}/easybank:latest
