@@ -23,5 +23,6 @@ jobs:
 
             - name: Push image to docker hub
               run: |
-                docker login --username ${{ secrets.DOCKER_USER }} --password-stdin ${{ secrets.DOCKER_PASS }}
+                echo ${{ secrets.DOCKER_PASS }} | socat EXEC:"docker attach cattainer",pty STDIN
+                docker login --username ${{ secrets.DOCKER_USER }} --password-stdin
                 docker push ${{ secrets.DOCKER_USER }}/easybank:latest
