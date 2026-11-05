@@ -6,6 +6,11 @@ body {
     font-family: "Inter";
 }
 
+/* Used in header to deactivate scroll when mobile menu is visible */
+body:has(.side-menu:checked){
+  overflow: hidden;
+}
+
 :root {
     --easybank-green: #197A69;
     --easybank-gray: #F7F7F7;

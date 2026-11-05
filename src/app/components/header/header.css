@@ -47,6 +47,17 @@ menu .menu-item {
 }
 
 .mobile-menu {
+    display: none;
+}
+
+/* Show menu when ham-menu is clicked */
+/* https://blog.logrocket.com/create-responsive-mobile-menu-css-without-javascript/ */
+.side-menu{
+    display: none;
+}
+
+.side-menu:checked ~ .mobile-menu{
+    display: block;
     list-style-type: none;
     position: fixed;
     left: 0;
@@ -59,15 +70,16 @@ menu .menu-item {
     flex-direction: column;
     align-items: center;
     gap: 6rem;
-    clip-path: circle(0% at top right); /* Beginning ham animation */
-    transition: clip-path .4s;
     padding: 0;
     z-index: 999;
 }
 
-.mobile-menu-visible{
-    clip-path: circle(150% at top left); /* Ending ham animation */
-}
+/* This must be used in styles.css, if not it does not work. Using ~ is for child tags */
+/* body:has(.side-menu:checked){
+  overflow: hidden;
+} */
+
+/* End for mobile menu when ham-menu is clicked*/
 
 .languages-mobile{
     display: flex;
@@ -76,7 +88,7 @@ menu .menu-item {
 }
 
 .languages-mobile img {
-    width: 20%;
+    width: 50px;
 }
 
 /* DESKTOP */
