@@ -7,7 +7,7 @@ body {
 }
 
 /* Used in header to deactivate scroll when mobile menu is visible */
-body:has(.side-menu:checked){
+body:has(.side_menu:checked){
   overflow: hidden;
 }
 

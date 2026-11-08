@@ -8,29 +8,29 @@
     <!-- MENU FOR MOBILE AND TABLET -->
     <nav class="menu-mobile">
         <!-- Onclick to add a css class for hamburguer menu animation -->
-        <input class="side-menu" type="checkbox" id="side-menu"/>
-        <label class="ham-menu" for="side-menu">
+        <input class="side_menu" type="checkbox" id="side_menu" #side_menu/>
+        <label class="ham-menu" id="ham-menu" for="side_menu">
             <img src="/icon/menu.png" alt="menu" />
         </label>
 
-        <menu class="mobile-menu" id="mobile-menu">
+        <menu class="mobile-menu" id="mobile-menu" #mobile_menu>
             <li>
-                <a class="menu-item" routerLink="/">
+                <a class="menu-item" routerLink="/" fragment="hero" (click)="close_mobile_menu()">
                     Home
                 </a>
             </li>
              <li>
-                <a class="menu-item" routerLink="/" fragment="benefits">
+                <a class="menu-item" routerLink="/" fragment="benefits" (click)="close_mobile_menu()">
                     Benefits
                 </a>
             </li>
              <li>
-                <a class="menu-item" routerLink="/" fragment="product">
+                <a class="menu-item" routerLink="/" fragment="product" (click)="close_mobile_menu()">
                     Product
                 </a>
             </li>
              <li>
-                <a class="menu-item" routerLink="/" fragment="product">
+                <a class="menu-item" routerLink="/" fragment="product" (click)="close_mobile_menu()">
                     Contact us
                 </a>
             </li>

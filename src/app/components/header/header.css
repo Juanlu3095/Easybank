@@ -14,6 +14,10 @@ For ham menu: https://www.youtube.com/shorts/cYO0X5jSg3I
     align-items: center;
     padding: 1rem;
     background-color: var(--easybank-green);
+    /* For header fixed at top: https://blog.duda.co/es/encabezado-fijo */
+    position: sticky;
+    top: 0;
+    z-index: 99;
 }
 
 /* LOGO */
@@ -52,17 +56,17 @@ menu .menu-item {
 
 /* Show menu when ham-menu is clicked */
 /* https://blog.logrocket.com/create-responsive-mobile-menu-css-without-javascript/ */
-.side-menu{
+.side_menu{
     display: none;
 }
 
-.side-menu:checked ~ .mobile-menu{
+.side_menu:checked ~ .mobile-menu{
     display: block;
     list-style-type: none;
     position: fixed;
     left: 0;
     bottom: 0;
-    top: 80px;
+    top: 105px;
     right: 0;
     height: 100vh;
     background-color: var(--easybank-green);
@@ -75,7 +79,7 @@ menu .menu-item {
 }
 
 /* This must be used in styles.css, if not it does not work. Using ~ is for child tags */
-/* body:has(.side-menu:checked){
+/* body:has(.side_menu:checked){
   overflow: hidden;
 } */
 
@@ -89,6 +93,13 @@ menu .menu-item {
 
 .languages-mobile img {
     width: 50px;
+}
+
+/* TABLET */
+@media screen and (min-width: 767px){
+    .side_menu:checked ~ .mobile-menu{
+        top: 100px;
+    }
 }
 
 /* DESKTOP */
@@ -121,8 +132,8 @@ menu .menu-item {
     }
 
     .menu-item{
-    text-decoration: none;
-}
+        text-decoration: none;
+    }
 
     .menu-item:hover{
         cursor: pointer;
