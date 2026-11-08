@@ -9,6 +9,7 @@ import { RouterLink } from '@angular/router';
 })
 export class Header {
 
+  // ViewChild necesita siempre #mobile_menu y no la id en el html para funcionar
   @ViewChild("mobile_menu") menu!: ElementRef<HTMLElement>;
   @ViewChild("side_menu") checkmenu!: ElementRef<HTMLInputElement>;
 

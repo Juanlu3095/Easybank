@@ -60,13 +60,19 @@ menu .menu-item {
     display: none;
 }
 
+@keyframes open_mobile_menu {
+    /* When there is more elements inside one to move, it is better to use transform, making all elements to move equally */
+    /* https://stackoverflow.com/questions/67180263/animation-moves-other-elements */
+    from {transform: translateX(450px);}
+    to {transform: translateX(0);}
+}
+
 .side_menu:checked ~ .mobile-menu{
-    display: block;
+    width: 100%;
     list-style-type: none;
     position: fixed;
-    left: 0;
     bottom: 0;
-    top: 105px;
+    top: 85px;
     right: 0;
     height: 100vh;
     background-color: var(--easybank-green);
@@ -76,6 +82,10 @@ menu .menu-item {
     gap: 6rem;
     padding: 0;
     z-index: 999;
+    animation: open_mobile_menu 1s;
+    /* To make element do not move after animation to initial position */
+    /* https://stackoverflow.com/questions/47208495/css-animations-moves-element-position */
+    animation-fill-mode: forwards;
 }
 
 /* This must be used in styles.css, if not it does not work. Using ~ is for child tags */
@@ -99,6 +109,12 @@ menu .menu-item {
 @media screen and (min-width: 767px){
     .side_menu:checked ~ .mobile-menu{
         top: 100px;
+        animation: open_tablet_menu 1s;
+    }
+
+    @keyframes open_tablet_menu {
+        from {transform: translateX(750px);}
+        to {transform: translateX(0);}
     }
 }
 
