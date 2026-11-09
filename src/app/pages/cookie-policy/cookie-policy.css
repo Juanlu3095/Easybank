@@ -1,0 +1,35 @@
+h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: var(--lengthLg1);
+    color: var(--easybank-green);
+}
+
+h2{
+    margin: 2rem 0;
+    font-size: var(--lengthMd3);
+}
+
+ul {
+    margin: 1rem 0;
+}
+
+a {
+    color: var(--easybank-green);
+}
+
+.cookies{
+    /* MOBILE */ 
+    margin: 2rem;
+
+    /* TABLET */ 
+    @media screen and (min-width: 767px) {
+        margin: 3rem;
+    }
+    
+    /* DESKTOP */ 
+    @media (min-width: 1024px) {
+        margin: 5rem;
+    }
+
+}

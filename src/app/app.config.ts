@@ -14,8 +14,9 @@ export const appConfig: ApplicationConfig = {
       // https://javascript.plainenglish.io/withinmemoryscrolling-in-angular-modern-scroll-restoration-and-anchor-scrolling-explained-c1974da4bf6c
       // https://www.reddit.com/r/angular/comments/1oqo38x/anchor_links_not_working_with_angular_20/
       withInMemoryScrolling({
-        anchorScrolling: 'enabled'
-      })
+        anchorScrolling: 'enabled',
+        scrollPositionRestoration: 'enabled' // Allows to scroll to page initial position when you navigate to another page
+      }),
     ),
     provideHttpClient(
       withFetch()
