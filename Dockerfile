@@ -8,11 +8,18 @@ RUN npm install -g pnpm@latest-10
 
 RUN pnpm install
 
-RUN pnpm build --configuration=production
+RUN pnpm run build --configuration=production --localize
 
-FROM nginx:alpine
+FROM node:24.20.0-alpine3.24 AS prod
 
-COPY --from=base /app/dist/Easybank/browser /usr/share/nginx/html
-COPY --from=base /app/package*.json /usr/share/nginx/html
+WORKDIR /app
 
-EXPOSE 80
+COPY --from=base /app/package.json ./package.json
+COPY --from=base /app/node_modules ./node_modules
+COPY --from=base /app/dist ./dist
+
+EXPOSE 4000
+
+ENV NG_ALLOWED_HOSTS=localhost,127.0.0.1
+
+CMD [ "npm", "run", "serve:ssr:Easybank" ]

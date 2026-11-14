@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-GB" datatype="plaintext" original="ng2.template" target-language="es">
+    <body>
+      <trans-unit id="1368884853095124539" datatype="html">
+        <source>Legal Notice</source>
+        <target>Aviso legal</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/legal-notice/legal-notice.html</context>
+          <context context-type="linenumber">7,9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4242517061962424580" datatype="html">
+        <source>I. GENERAL INFORMATION</source>
+        <target>I. INFORMACIÓN GENERAL</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/legal-notice/legal-notice.html</context>
+          <context context-type="linenumber">10,11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6833303872402400670" datatype="html">
+        <source> In compliance with the duty to provide information established by Law 34/2002 of 11 July on Information Society Services and Electronic Commerce (LSSI-CE), the following general information about this website is provided: </source>
+        <target>
+          En cumplimiento con el deber de información dispuesto en la Ley 34/2002 de Servicios de la Sociedad de la Información y del Comercio Electrónico
+          (LSSI-CE) de 11 de julio, se facilitan a continuación los siguientes datos de información general de este sitio web:
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/legal-notice/legal-notice.html</context>
+          <context context-type="linenumber">12,13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7039967051311509604" datatype="html">
+        <source>Website owner: Juan Luis Talavera Peláez</source>
+        <target>Titular del sitio web: Juan Luis Talavera Peláez</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/legal-notice/legal-notice.html</context>
+          <context context-type="linenumber">16,17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7633514190456334011" datatype="html">
+        <source>Website name: Easybank</source>
+        <target>Nombre del sitio web: Easybank</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/legal-notice/legal-notice.html</context>
+          <context context-type="linenumber">17,18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4800419015770651393" datatype="html">
+        <source>Email address: jcooldevelopment@gmail.com</source>
+        <target>Correo electrónico: jcooldevelopment@gmail.com</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/legal-notice/legal-notice.html</context>
+          <context context-type="linenumber">18,19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5302549969366154808" datatype="html">
+        <source>II. PURPOSE</source>
+        <target>II. OBJETO</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/legal-notice/legal-notice.html</context>
+          <context context-type="linenumber">21,22</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1435636833694132803" datatype="html">
+        <source> This Legal Notice governs the terms and conditions of use of Easybank (hereinafter, the &quot;Website&quot;). Accessing and using the Website grants the user status as a user and implies full and unconditional acceptance of each and every provision contained in this Legal Notice. </source>
+        <target>
+          El presente Aviso Legal regula las condiciones de uso de Easybank en adelante, "el Sitio Web". El acceso y uso del Sitio Web atribuye la condición
+          de usuario e implica la aceptación plena y sin reservas de todas y cada una de las disposiciones incluidas en este Aviso Legal.
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/legal-notice/legal-notice.html</context>
+          <context context-type="linenumber">23,24</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1356349287825995999" datatype="html">
+        <source>III. USE OF THE WEBSITE</source>
+        <target>III. USO DEL SITIO WEB</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/legal-notice/legal-notice.html</context>
+          <context context-type="linenumber">27,28</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2484551746769080835" datatype="html">
+        <source> The user agrees to use the Website in accordance with the law, morality, good practices and public order. Likewise, the user undertakes not to use the Website for unlawful purposes or in ways that may infringe upon the rights or interests of third parties, or in any manner that could damage, disable, overload or impair the Website, preventing its normal operation. </source>
+        <target>
+          El usuario se compromete a utilizar el Sitio Web de conformidad con la ley, la moral, las buenas costumbres y el orden público. Asimismo, se obliga
+          a no utilizar el Sitio Web con fines ilícitos o lesivos de derechos o intereses de terceros, o de forma que pueda dañar, inutilizar, sobrecargar o
+          deteriorar el Sitio Web, impidiendo su normal utilización.
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/legal-notice/legal-notice.html</context>
+          <context context-type="linenumber">29,31</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="20922244342193593" datatype="html">
+        <source>IV. EDUCATIONAL AND FICTIONAL NATURE OF THE CONTENT</source>
+        <target>IV. CARÁCTER EDUCATIVO Y FICTICIO DE LOS CONTENIDOS</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/legal-notice/legal-notice.html</context>
+          <context context-type="linenumber">34,35</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1391573482154972923" datatype="html">
+        <source> This Website is intended exclusively for educational purposes, with a focus on learning programming. All posts and services presented on the Website are fictional and have no legal or commercial validity. No real payments are processed, nor are any actual services provided. Any information submitted by users through booking forms or similar forms will be used solely for educational purposes and will not be used for real transactions. </source>
+        <target>
+          Este Sitio Web tiene un propósito exclusivamente educativo, orientado al aprendizaje de programación. Todos los posts y
+          servicios presentados en el Sitio Web son ficticios y no tienen validez legal ni comercial. No se procesan pagos reales ni se
+          realizan servicios de ningún tipo. Cualquier dato proporcionado por el usuario en formularios de reservas o similares será tratado únicamente con fines educativos
+          y no será utilizado para transacciones reales.
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/legal-notice/legal-notice.html</context>
+          <context context-type="linenumber">36,39</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2685943418891353448" datatype="html">
+        <source>V. INTELLECTUAL AND INDUSTRIAL PROPERTY</source>
+        <target>V. PROPIEDAD INTELECTUAL E INDUSTRIAL</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/legal-notice/legal-notice.html</context>
+          <context context-type="linenumber">42,43</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="966658306993346938" datatype="html">
+        <source> All intellectual and industrial property rights relating to the Website, including its design, structure, source code, texts and any other original content, belong to the Website owner and are protected by Spanish and international intellectual and industrial property legislation. </source>
+        <target>
+          Los derechos de propiedad intelectual e industrial sobre el Sitio Web, incluyendo su diseño, estructura, código fuente, textos y cualquier otro contenido
+          original, pertenecen al titular del Sitio web y están protegidos por la normativa española e internacional sobre propiedad intelectual e industrial.
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/legal-notice/legal-notice.html</context>
+          <context context-type="linenumber">44,45</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4436349353426811161" datatype="html">
+        <source> Original content: The Website&apos;s source code, as well as its design and published texts, have been created by the Website owner. </source>
+        <target>Contenido propio: El código fuente del Sitio Web, así como el diseño y los textos publicados, son de autoría propia del titular del Sitio web.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/legal-notice/legal-notice.html</context>
+          <context context-type="linenumber">49</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2333412292806657737" datatype="html">
+        <source> Images: The images used on this Website have been obtained from image banks offering royalty-free content or content under free-use licences, in compliance with the terms and conditions established by those providers. </source>
+        <target>
+          Imágenes: Las imágenes utilizadas en este Sitio Web han sido obtenidas de bancos de imágenes que ofrecen contenido sin derechos de autor o bajo
+          licencias de uso libre, cumpliendo con las condiciones estipuladas por dichos proveedores.
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/legal-notice/legal-notice.html</context>
+          <context context-type="linenumber">52,53</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1801163940111661692" datatype="html">
+        <source> Icons and fonts: The fonts used on the Website are provided by Google Fonts, in accordance with the terms and conditions established by this platform. </source>
+        <target>
+          Iconos y fuentes: Las fuentes utilizadas en el Sitio Web son proporcionadas por Google Fonts, de acuerdo con los términos y condiciones establecidos
+          por esta plataforma.
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/legal-notice/legal-notice.html</context>
+          <context context-type="linenumber">56,57</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4516142660051786632" datatype="html">
+        <source> Other elements: The Website may contain elements developed by third parties, which are used in accordance with their respective licences. </source>
+        <target>
+          Otros elementos: El Sitio Web puede contener elementos desarrollados por terceros que se utilizan conforme a sus respectivas licencias.
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/legal-notice/legal-notice.html</context>
+          <context context-type="linenumber">60</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4112317654260567086" datatype="html">
+        <source> The reproduction, distribution, public communication, transformation or any other similar activity involving the Website&apos;s content is prohibited without the prior written consent of the Website owner, except where expressly stated otherwise or where such content is covered by open licences. The user agrees to respect the intellectual and industrial property rights of the Website and of any third parties providing content or services through this platform. </source>
+        <target>
+          Se prohíbe la reproducción, distribución, comunicación pública, transformación o cualquier otra actividad similar de los contenidos del Sitio Web sin
+          el consentimiento previo y por escrito del titular del Sitio web, salvo cuando se indique expresamente lo contrario o cuando dichos contenidos se encuentren
+          bajo licencias libres.
+          El usuario se compromete a respetar los derechos de propiedad intelectual e industrial del Sitio Web y de los terceros que proveen contenidos o 
+          servicios a través de esta plataforma.
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/legal-notice/legal-notice.html</context>
+          <context context-type="linenumber">64,67</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6505793715532760062" datatype="html">
+        <source>VI. DISCLAIMER OF WARRANTIES AND LIABILITY</source>
+        <target>VI. EXCLUSIÓN DE GARANTÍAS Y RESPONSABILIDAD</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/legal-notice/legal-notice.html</context>
+          <context context-type="linenumber">71,72</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5801543042533377638" datatype="html">
+        <source> The content of this Website is of a general nature and is intended exclusively for educational purposes. No guarantee is given regarding full access to all content, its completeness, accuracy, validity or currency, or its suitability or usefulness for any specific purpose. The Website owner excludes, to the fullest extent permitted by law, any liability for damages of any kind arising from: </source>
+        <target>
+          El contenido de este Sitio Web es de carácter general y tiene una finalidad exclusivamente educativa, sin que se garantice plenamente el acceso a todos
+          los contenidos, ni su exhaustividad, corrección, vigencia o actualidad, ni su idoneidad o utilidad para un objetivo específico. El titular del Sitio Web
+          excluye, hasta donde permite el ordenamiento jurídico, cualquier responsabilidad por los daños y perjuicios de toda naturaleza derivados de:
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/legal-notice/legal-notice.html</context>
+          <context context-type="linenumber">73,75</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7805954941433323173" datatype="html">
+        <source> The inability to access the Website or the lack of truthfulness, accuracy, completeness and/or currency of its content, as well as the existence of any defects or faults in the content transmitted, distributed, stored or made available, or accessed through the Website or the services offered. </source>
+        <target>
+          La imposibilidad de acceso al Sitio Web o la falta de veracidad, exactitud, exhaustividad y/o actualidad de los contenidos, así como la existencia
+          de vicios y defectos de toda clase de los contenidos transmitidos, difundidos, almacenados, puestos a disposición a los que se haya accedido a través
+          del Sitio Web o de los servicios que se ofrecen.
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/legal-notice/legal-notice.html</context>
+          <context context-type="linenumber">79,81</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6097118634443333403" datatype="html">
+        <source> The presence of viruses or other elements in the content that may cause alterations to users&apos; computer systems, electronic documents or data. </source>
+        <target>
+          La presencia de virus u otros elementos en los contenidos que puedan producir alteraciones en los sistemas informáticos, documentos electrónicos o datos
+          de los usuarios.
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/legal-notice/legal-notice.html</context>
+          <context context-type="linenumber">84</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6435392539758803702" datatype="html">
+        <source> Any breach of applicable laws, good faith, public order, customary business practices or this Legal Notice resulting from improper use of the Website. </source>
+        <target>
+          El incumplimiento de las leyes, la buena fe, el orden público, los usos del tráfico y el presente Aviso Legal como consecuencia del uso incorrecto del Sitio Web.
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/legal-notice/legal-notice.html</context>
+          <context context-type="linenumber">87</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5964939998861663998" datatype="html">
+        <source>VII. MODIFICATIONS</source>
+        <target>VII. MODIFICACIONES</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/legal-notice/legal-notice.html</context>
+          <context context-type="linenumber">91,92</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1253408289107336650" datatype="html">
+        <source> The Website owner reserves the right to make any changes to the Website that they deem appropriate without prior notice, including changing, removing or adding content and services provided through the Website, as well as modifying the way in which they are displayed or located on the Website. </source>
+        <target>
+          El titular del Sitio Web se reserva el derecho de efectuar sin previo aviso las modificaciones que considere oportunas en su portal, pudiendo cambiar,
+          suprimir o añadir tanto los contenidos y servicios que se presten a través del mismo como la forma en la que éstos aparezcan presentados o localizados
+          en su portal.
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/legal-notice/legal-notice.html</context>
+          <context context-type="linenumber">93,94</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6734912370014923870" datatype="html">
+        <source>VIII. LINKS</source>
+        <target>VIII. ENLACES</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/legal-notice/legal-notice.html</context>
+          <context context-type="linenumber">98,99</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1990656970494243269" datatype="html">
+        <source> If the Website contains links or hyperlinks to other websites on the Internet, the Website owner shall exercise no control over such websites or their content. Under no circumstances shall the Website owner assume any liability for the content of links leading to external websites. </source>
+        <target>
+          En el caso de que en el Sitio Web se dispusiesen enlaces o hipervínculos hacía otros sitios de Internet, el titular del Sitio Web no ejercerá ningún
+          tipo de control sobre dichos sitios y contenidos. En ningún caso asumirá responsabilidad alguna por los contenidos de algún enlace perteneciente a un
+          sitio web ajeno.
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/legal-notice/legal-notice.html</context>
+          <context context-type="linenumber">100,101</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1841252562078646023" datatype="html">
+        <source>IX. RIGHT TO EXCLUDE USERS</source>
+        <target>IX. DERECHO DE EXCLUSIÓN</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/legal-notice/legal-notice.html</context>
+          <context context-type="linenumber">105,106</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8677149771487506331" datatype="html">
+        <source> The Website owner reserves the right to deny or withdraw access to the Website and/or the services offered, without prior notice, either at their own initiative or at the request of a third party, from users who fail to comply with these General Terms of Use. </source>
+        <target>
+          El titular del Sitio Web se reserva el derecho a denegar o retirar el acceso al portal y/o los servicios ofrecidos sin necesidad de preaviso, a
+          instancia propia o de un tercero, a aquellos usuarios que incumplan las presentes Condiciones Generales de Uso.
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/legal-notice/legal-notice.html</context>
+          <context context-type="linenumber">107,108</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3209331835516627363" datatype="html">
+        <source>X. GENERAL PROVISIONS</source>
+        <target>X. GENERALIDADES</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/legal-notice/legal-notice.html</context>
+          <context context-type="linenumber">111,112</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8407931049172289198" datatype="html">
+        <source> The Website owner shall take action against any breach of these terms and conditions, as well as any improper use of the Website, by exercising all civil and criminal legal actions available under applicable law. </source>
+        <target>
+          El titular del Sitio Web perseguirá el incumplimiento de las presentes condiciones, así como cualquier utilización indebida de su portal ejerciendo
+          todas las acciones civiles y penales que le puedan corresponder en derecho.
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/legal-notice/legal-notice.html</context>
+          <context context-type="linenumber">113,114</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3194153975694130395" datatype="html">
+        <source>XI. AMENDMENTS TO THESE TERMS AND CONDITIONS AND DURATION</source>
+        <target>XI. MODIFICACIÓN DE LAS PRESENTES CONDICIONES Y DURACIÓN</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/legal-notice/legal-notice.html</context>
+          <context context-type="linenumber">117,118</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2362241046492869434" datatype="html">
+        <source> The Website owner may modify these terms and conditions at any time. Any amendments shall be duly published in the same manner as this Legal Notice. These terms and conditions shall remain in force for as long as they are published and shall continue to apply until replaced by other duly published terms. </source>
+        <target>
+          El titular del Sitio Web podrá modificar en cualquier momento las condiciones aquí determinadas, siendo debidamente publicadas como aquí aparecen.
+          La vigencia de las citadas condiciones irá en función de su exposición y estarán vigentes hasta que sean modificadas por otras debidamente publicadas.
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/legal-notice/legal-notice.html</context>
+          <context context-type="linenumber">119,120</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7345573744035921975" datatype="html">
+        <source>XII. APPLICABLE LAW AND JURISDICTION</source>
+        <target>XII. LEGISLACIÓN APLICABLE Y JURISDICCIÓN</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/legal-notice/legal-notice.html</context>
+          <context context-type="linenumber">123,124</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5034510155669802941" datatype="html">
+        <source> The Website owner reserves the right to bring any civil or criminal legal action deemed necessary in response to the improper use of the Website and its content, or to any breach of these terms and conditions. The relationship between the user and the Website shall be governed by the laws and regulations in force in Spain. In the event of any dispute concerning the interpretation and/or application of these terms and conditions, the parties shall submit their dispute to the ordinary courts and tribunals with jurisdiction in accordance with applicable law. </source>
+        <target>
+          El titular del Sitio Web se reserva la facultad de presentar las acciones civiles o penales que considere necesarias por la utilización indebida del
+          Sitio Web y Contenidos, o por el incumplimiento de las presentes Condiciones.
+
+          La relación entre el Usuario y el Sitio web se regirá por la normativa vigente y de aplicación en el territorio español. De surgir cualquier controversia
+          en relación con la interpretación y/o a la aplicación de estas Condiciones las partes someterán sus conflictos a la jurisdicción ordinaria sometiéndose
+          a los jueces y tribunales que correspondan conforme a derecho.
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/legal-notice/legal-notice.html</context>
+          <context context-type="linenumber">125,130</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
