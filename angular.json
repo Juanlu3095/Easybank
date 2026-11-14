@@ -42,7 +42,9 @@
             "server": "src/main.server.ts",
             "outputMode": "server",
             "security": {
-              "allowedHosts": []
+              "allowedHosts": [
+                "https://easybank-qfwn.onrender.com"
+              ]
             },
             "ssr": {
               "entry": "src/server.ts"
