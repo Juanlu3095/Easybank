@@ -20,6 +20,6 @@ COPY --from=base /app/dist ./dist
 
 EXPOSE 4000
 
-ENV NG_ALLOWED_HOSTS=localhost,127.0.0.1
+ENV NG_ALLOWED_HOSTS=localhost,127.0.0.1,*.onrender.com
 
 CMD [ "npm", "run", "serve:ssr:Easybank" ]
