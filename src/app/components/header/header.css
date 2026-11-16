@@ -166,6 +166,10 @@ menu .menu-item {
         gap: 0.5rem;
     }
 
+    .languages a {
+        cursor: pointer;
+    }
+
     menu li.languages img.country-flag{
         width: 30px;
         height: 30px;

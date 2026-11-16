@@ -20,7 +20,7 @@ ng serve
 
 Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
 
-For using Angular SSR run:
+For using Angular SSR run server.mjs in dist folder with:
 
 ```bash
 pnpm run serve:ssr:Easybank
@@ -112,4 +112,6 @@ ng extract-i18n --output-path src/locale --out-file source.xlf
 where "src/locale" is the folder where the files are saved and "source.xlf" will be the name of the generated file. \n
 Also, the generated will be called messages.xlf by default.
 Remember that in development server ONLY ONE locale can be used at once according to Angular official docs. For using 2 or more, use `ng build` or Docker.
+Don't forget that if you go to main domain, the web browser will redirect to the source locale used by us in it. If our browser has english as its default
+language, it will open: http://mydomain.com/en-GB.
 

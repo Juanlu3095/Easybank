@@ -1,5 +1,5 @@
 import { Component, ElementRef, ViewChild } from '@angular/core';
-import { RouterLink } from '@angular/router';
+import { Router, RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-header',
@@ -13,7 +13,7 @@ export class Header {
   @ViewChild("mobile_menu") menu!: ElementRef<HTMLElement>;
   @ViewChild("side_menu") checkmenu!: ElementRef<HTMLInputElement>;
 
-  constructor(){}
+  constructor(private router: Router){}
 
   public close_mobile_menu(){
     // https://stackoverflow.com/questions/45699783/how-to-programmatically-set-or-reset-checkbox
@@ -22,5 +22,11 @@ export class Header {
     // PROBLEM:
     // It checks the input but side menu cannot be open once a menu item is clicked
     // Checkbox can be checked, but side menu does not work
+  }
+
+  // https://intlpull.com/es/blog/angular-i18n-complete-guide-2026#step-10-language-switcher
+  public change_language(target_language: string){
+    const currentPath = window.location.pathname.split('/').slice(2).join('/');
+    window.location.href = `/${target_language}/${currentPath}`;
   }
 }
