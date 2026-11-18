@@ -10,8 +10,7 @@
     "Easybank": {
       "i18n": {
         "sourceLocale": {
-          "code": "en",
-          "baseHref": "en"
+          "code": "en"
         },
         "locales": {
           "es": {

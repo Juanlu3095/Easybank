@@ -1,7 +1,107 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-  <file source-language="en-GB" datatype="plaintext" original="ng2.template" target-language="es">
+  <file source-language="en" datatype="plaintext" original="ng2.template" target-language="es">
     <body>
+      <!-- APP.ROUTES -->
+      <trans-unit id="legalNotice-route" datatype="html">
+        <source>legal-notice</source>
+        <target>aviso-legal</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.routes.ts</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="cookiePolicy-route" datatype="html">
+        <source>cookie-policy</source>
+        <target>politica-de-cookies</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.routes.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="privacyPolicy-route" datatype="html">
+        <source>privacy-policy</source>
+        <target>politica-de-privacidad</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.routes.ts</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="operationReceipt-route" datatype="html">
+        <source>dashboard/operation-receipt/:id</source>
+        <target>panel-de-control/justificante/:id</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.routes.ts</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+      </trans-unit>
+
+      <!-- FOOTER -->
+      <trans-unit id="4861878280712863759" datatype="html">
+        <source>/client/login</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/footer/footer.html</context>
+          <context context-type="linenumber">12,13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6510316136490176256" datatype="html">
+        <source> Client area </source>
+        <target> Área de cliente </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/footer/footer.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4776484353094746536" datatype="html">
+        <source>/legal-notice</source>
+        <target>/aviso-legal</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/footer/footer.html</context>
+          <context context-type="linenumber">17,18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4374641532587092443" datatype="html">
+        <source> Legal notice </source>
+        <target> Aviso legal </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/footer/footer.html</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2671884413647563183" datatype="html">
+        <source>/cookie-policy</source>
+        <target>/politica-de-cookies</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/footer/footer.html</context>
+          <context context-type="linenumber">22,23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6509003407758128100" datatype="html">
+        <source> Cookie policy </source>
+        <target> Política de cookies </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/footer/footer.html</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8365606726327065009" datatype="html">
+        <source>/privacy-policy</source>
+        <target>/politica-de-privacidad</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/footer/footer.html</context>
+          <context context-type="linenumber">27,28</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3028950182768355353" datatype="html">
+        <source> Privacy policy </source>
+        <target> Política de privacidad</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/footer/footer.html</context>
+          <context context-type="linenumber">28</context>
+        </context-group>
+      </trans-unit>
+
+      <!-- LEGAL NOTICE PAGE  -->
       <trans-unit id="1368884853095124539" datatype="html">
         <source>Legal Notice</source>
         <target>Aviso legal</target>

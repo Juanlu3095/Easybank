@@ -5,7 +5,8 @@
   "compilerOptions": {
     "outDir": "./out-tsc/app",
     "types": [
-      "node"
+      "node",
+      "@angular/localize" // // For using @angular/localize/init's $localize when creating xlf files
     ]
   },
   "include": [

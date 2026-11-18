@@ -1,5 +1,5 @@
 import { Component, ElementRef, ViewChild } from '@angular/core';
-import { Router, RouterLink } from '@angular/router';
+import { RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-header',
@@ -13,7 +13,7 @@ export class Header {
   @ViewChild("mobile_menu") menu!: ElementRef<HTMLElement>;
   @ViewChild("side_menu") checkmenu!: ElementRef<HTMLInputElement>;
 
-  constructor(private router: Router){}
+  constructor(){}
 
   public close_mobile_menu(){
     // https://stackoverflow.com/questions/45699783/how-to-programmatically-set-or-reset-checkbox
