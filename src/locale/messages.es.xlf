@@ -37,11 +37,28 @@
       </trans-unit>
 
       <!-- FOOTER -->
-      <trans-unit id="4861878280712863759" datatype="html">
-        <source>/client/login</source>
+      <trans-unit id="gotohome-footer-arialabel" datatype="html">
+        <source>Go to home page</source>
+        <target>Ir a la página de inicio</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/footer/footer.html</context>
-          <context context-type="linenumber">12,13</context>
+          <context context-type="linenumber">5,6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4861878280712863759" datatype="html">
+        <source>/client/login</source>
+        <target>/client/login</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/footer/footer.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="gotoclientarea-footer-arialabel" datatype="html">
+        <source>Go to login page</source>
+        <target>Ir al inicio de sesión</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/footer/footer.html</context>
+          <context context-type="linenumber">13,15</context>
         </context-group>
       </trans-unit>
       <trans-unit id="6510316136490176256" datatype="html">
@@ -49,7 +66,7 @@
         <target> Área de cliente </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/footer/footer.html</context>
-          <context context-type="linenumber">13</context>
+          <context context-type="linenumber">14</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4776484353094746536" datatype="html">
@@ -57,7 +74,15 @@
         <target>/aviso-legal</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/footer/footer.html</context>
-          <context context-type="linenumber">17,18</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="gotolegalnotice-footer-arialabel" datatype="html">
+        <source>Go to legal notice page</source>
+        <target>Ir a la página del aviso legal</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/footer/footer.html</context>
+          <context context-type="linenumber">18,20</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4374641532587092443" datatype="html">
@@ -65,7 +90,7 @@
         <target> Aviso legal </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/footer/footer.html</context>
-          <context context-type="linenumber">18</context>
+          <context context-type="linenumber">19</context>
         </context-group>
       </trans-unit>
       <trans-unit id="2671884413647563183" datatype="html">
@@ -73,7 +98,15 @@
         <target>/politica-de-cookies</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/footer/footer.html</context>
-          <context context-type="linenumber">22,23</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="gotocookiepolicy-footer-arialabel" datatype="html">
+        <source>Go to cookie policy page</source>
+        <target>Ir a la política de cookies</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/footer/footer.html</context>
+          <context context-type="linenumber">23,25</context>
         </context-group>
       </trans-unit>
       <trans-unit id="6509003407758128100" datatype="html">
@@ -81,7 +114,7 @@
         <target> Política de cookies </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/footer/footer.html</context>
-          <context context-type="linenumber">23</context>
+          <context context-type="linenumber">24</context>
         </context-group>
       </trans-unit>
       <trans-unit id="8365606726327065009" datatype="html">
@@ -89,15 +122,47 @@
         <target>/politica-de-privacidad</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/footer/footer.html</context>
-          <context context-type="linenumber">27,28</context>
+          <context context-type="linenumber">28</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="gotoprivacypolicy-footer-arialabel" datatype="html">
+        <source>Go to privacy policy page</source>
+        <target>Ir a la política de privacidad</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/footer/footer.html</context>
+          <context context-type="linenumber">28,30</context>
         </context-group>
       </trans-unit>
       <trans-unit id="3028950182768355353" datatype="html">
         <source> Privacy policy </source>
-        <target> Política de privacidad</target>
+        <target> Política de privacidad </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/footer/footer.html</context>
-          <context context-type="linenumber">28</context>
+          <context context-type="linenumber">29</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="sendemail-footer-arialabel" datatype="html">
+        <source>Send an email to us</source>
+        <target>Envíanos un email</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/footer/footer.html</context>
+          <context context-type="linenumber">42,43</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="phonecall-footer-aria-label" datatype="html">
+        <source>Have a phone call with us</source>
+        <target>Llámanos</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/footer/footer.html</context>
+          <context context-type="linenumber">47,48</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="rights-footer" datatype="html">
+        <source> Easybank - All rights reserved </source>
+        <target> Easybank - Todos los derechos reservados </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/footer/footer.html</context>
+          <context context-type="linenumber">60,62</context>
         </context-group>
       </trans-unit>
 

@@ -2,29 +2,30 @@
     <!-- 3 COLUMNS -->
     <div class="footer-info">
         <div class="logo-footer">
-            <a href="">
+            <a routerLink="/" i18n-aria-label="@@gotohome-footer-arialabel" aria-label="Go to home page">
                 <img src="logo/logo_blanco_sinfondo.png" alt="logo-easybank" class="logo-img">
             </a>
         </div>
         <div class="legal-txt">
             <ul class="legal-txt-list">
                 <li>
-                    <a i18n i18n-routerLink routerLink="/client/login">
+                    <!-- i18n for "Client area" string and i18n-routerLink routerLink for route in routerLink -->
+                    <a i18n i18n-routerLink routerLink="/client/login" i18n-aria-label="@@gotoclientarea-footer-arialabel" aria-label="Go to login page">
                         Client area
                     </a>
                 </li>
                 <li>
-                    <a i18n i18n-routerLink routerLink="/legal-notice">
+                    <a i18n i18n-routerLink routerLink="/legal-notice" i18n-aria-label="@@gotolegalnotice-footer-arialabel" aria-label="Go to legal notice page">
                         Legal notice
                     </a>
                 </li>
                 <li>
-                    <a i18n i18n-routerLink routerLink="/cookie-policy">
+                    <a i18n i18n-routerLink routerLink="/cookie-policy" i18n-aria-label="@@gotocookiepolicy-footer-arialabel" aria-label="Go to cookie policy page">
                         Cookie policy
                     </a>
                 </li>
                 <li>
-                    <a i18n i18n-routerLink routerLink="/privacy-policy">
+                    <a i18n i18n-routerLink routerLink="/privacy-policy" i18n-aria-label="@@gotoprivacypolicy-footer-arialabel" aria-label="Go to privacy policy page">
                         Privacy policy
                     </a>
                 </li>
@@ -38,13 +39,13 @@
                     </a>
                 </li>
                 <li>
-                    <a href="mailto:myemail@easybank.com">
+                    <a href="mailto:myemail@easybank.com" i18n-aria-label="@@sendemail-footer-arialabel" aria-label="Send an email to us">
                         myemail@easybank.com
                     </a>
                 </li>
                 <li>
-                    <a href="tel:+34660524400">
-                        Tlf. +34 660524400
+                    <a href="tel:+34660524400" i18n-aria-label="@@phonecall-footer-aria-label" aria-label="Have a phone call with us">
+                        Tel: +34 660524400
                     </a>
                 </li>
             </ul>
@@ -55,7 +56,7 @@
     <!-- HR & OTHER DATA -->
     <div class="footer-bottom">
         <hr>
-        <p>
+        <p i18n="@@rights-footer">
             Easybank  - All rights reserved
         </p>
     </div>
