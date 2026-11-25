@@ -29,12 +29,15 @@
       </trans-unit>
       <trans-unit id="operationReceipt-route" datatype="html">
         <source>dashboard/operation-receipt/:id</source>
-        <target>panel-de-control/justificante/:id</target>
+        <target>dashboard/operation-receipt/:id</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.routes.ts</context>
           <context context-type="linenumber">21</context>
         </context-group>
       </trans-unit>
+
+      <!-- HEADER -->
+      
 
       <!-- FOOTER -->
       <trans-unit id="gotohome-footer-arialabel" datatype="html">

@@ -1,5 +1,29 @@
 import { Routes } from '@angular/router';
 
+// https://stackoverflow.com/questions/43904085/angular-routing-is-it-possible-to-use-different-path-strings-for-different-la
+export const urlRoutes = [
+    {
+        "en": "/",
+        "es": "/"
+    },
+    {
+        "en": "/legal-notice",
+        "es": "/aviso-legal"
+    },
+    {
+        "en": "/cookie-policy",
+        "es": "/politica-de-cookies"
+    },
+    {
+        "en": "/privacy-policy",
+        "es": "/politica-de-privacidad"
+    },
+    {
+        "en": "/dashboard/operation-receipt/:id",
+        "es": "/dashboard/operation-receipt/:id"
+    }
+]
+
 export const routes: Routes = [
     {
         path: '',

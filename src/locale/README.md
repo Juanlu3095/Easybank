@@ -10,6 +10,8 @@ To add other languages you need first to install i18n package:
 ng add @angular/localize
 ```
 
+This package is an official library by Angular team, but you can use others from community like ngx-translate.
+
 ## Files
 
 This folder has the following files with translations:
@@ -18,7 +20,7 @@ This folder has the following files with translations:
 
 ## How to point out text to translate
 
-To create locale files, specific tags must be used to point out what to translate. For example to translate a <p> text:
+To create locale files, specific tags must be used to point out what to translate. For example to translate a text:
 
 ```html
 <p i18n>
@@ -124,9 +126,55 @@ When translating files, you need to add where <source> tag is in .xlf files the 
 </trans-unit>
 ```
 
+## How to serve web app in production or development
+
+As mentioned before, when using the 'ng serve' command in local, you can only use one locale as stated in Angular documentation.
+To serve the app in one language you must use:
+
+```bash
+ng serve --configuration=development,en
+```
+
+where in configuration is the environment to use. In this app we can use development/production and en/es. You can see this in angular.json file:
+
+```json
+"configurations": {
+  "es":{
+    "localize": ["es"]
+  },
+  "en":{
+    "localize": ["en"]
+  },
+}
+```
+
+```json
+"serve": {
+  "serve": {
+    "builder": "@angular/build:dev-server",
+    "configurations": {
+      "es": {
+        "buildTarget": "Easybank:build:development,es"
+      },
+      "en": {
+        "buildTarget": "Easybank:build:development,en"
+      },
+      "production": {
+        "buildTarget": "Easybank:build:production"
+      },
+      "development": {
+        "buildTarget": "Easybank:build:development"
+      }
+    },
+  }
+}
+```
+
+The serve configuration calls the build one in angular.json. You must update this file with this two extracts to make it work.
+
 For more information visit Angular guide: <a href="https://angular.dev/guide/i18n">https://angular.dev/guide/i18n</a>
 
-Also:
+See also:
 
 - https://phrase.com/blog/posts/angular-localization-i18n/
 - https://medium.com/@yusufsarikaya023/quick-trip-how-to-localize-angular-router-with-different-language-d8b85b767802

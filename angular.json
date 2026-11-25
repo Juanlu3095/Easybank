@@ -57,6 +57,9 @@
             "es":{
               "localize": ["es"]
             },
+            "en":{
+              "localize": ["en"]
+            },
             "production": {
               "budgets": [
                 {
@@ -91,6 +94,9 @@
           "configurations": {
             "es": {
               "buildTarget": "Easybank:build:development,es"
+            },
+            "en": {
+              "buildTarget": "Easybank:build:development,en"
             },
             "production": {
               "buildTarget": "Easybank:build:production"
