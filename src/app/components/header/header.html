@@ -1,6 +1,6 @@
 <header id="header">
     <div class="logo-app">
-        <a href="" aria-label="Go to home page">
+        <a href="" aria-label="Go to home page" i18n-aria-label="@@gotohome-header-arialabel">
             <img src="logo/logo_blanco_sinfondo.png" alt="logo-easybank" class="logo-img">
         </a>
     </div>
@@ -9,42 +9,61 @@
     <nav class="menu-mobile">
         <!-- Onclick to add a css class for hamburguer menu animation -->
         <input class="side_menu" type="checkbox" id="side_menu" #side_menu/>
-        <label class="ham-menu" id="ham-menu" for="side_menu">
+        <label class="ham-menu" id="ham-menu" for="side_menu" aria-label="Open menu" i18n-aria-label="@@openmenu-header-arialabel">
             <img src="icon/menu.png" alt="menu" />
         </label>
 
         <menu class="mobile-menu" id="mobile-menu" #mobile_menu>
             <li>
-                <a class="menu-item" routerLink="/" fragment="hero" (click)="close_mobile_menu()">
+                <a class="menu-item" routerLink="/" fragment="hero" (click)="close_mobile_menu()"
+                    i18n i18n-routerLink="link-home-header"
+                    aria-label="Go to home" i18n-aria-label="@@gotohome-header-arialabel"
+                >
                     Home
                 </a>
             </li>
              <li>
-                <a class="menu-item" routerLink="/" fragment="benefits" (click)="close_mobile_menu()">
+                <a class="menu-item" routerLink="/" fragment="benefits" (click)="close_mobile_menu()"
+                    i18n i18n-routerLink="link-benefits-header"
+                    aria-label="Go to benefits" i18n-aria-label="@@gotobenefits-header-arialabel"
+                >
                     Benefits
                 </a>
             </li>
              <li>
-                <a class="menu-item" routerLink="/" fragment="product" (click)="close_mobile_menu()">
+                <a class="menu-item" routerLink="/" fragment="product" (click)="close_mobile_menu()"
+                    i18n i18n-routerLink="link-product-header"
+                    aria-label="Go to product" i18n-aria-label="@@gotoproduct-header-arialabel"
+                >
                     Product
                 </a>
             </li>
              <li>
-                <a class="menu-item" routerLink="/" fragment="product" (click)="close_mobile_menu()">
+                <a class="menu-item" routerLink="/" fragment="product" (click)="close_mobile_menu()"
+                    i18n i18n-routerLink="link-contact-header"
+                    aria-label="Go to contact" i18n-aria-label="@@gotocontact-header-arialabel"
+                >
                     Contact us
                 </a>
             </li>
              <li>
-                <a class="menu-item" routerLink="">
+                <a class="menu-item" routerLink="" (click)="close_mobile_menu()"
+                    i18n i18n-routerLink="link-clientarea-header"
+                    aria-label="Go to client area" i18n-aria-label="@@gotoclientarea-header-arialabel"
+                >
                     Client area
                 </a>
             </li>
             <li class="languages-mobile">
-                <a (click)="change_language('es')">
-                    <img src="icon/es.webp" alt="español" class="country-flag">
+                <a (click)="change_language('es')"
+                    aria-label="Change language to spanish" i18n-aria-label="@@changetospanish-header-arialabel"
+                >
+                    <img src="icon/es.webp" alt="spanish" i18n-alt="@@spanish-flag-arialabel" class="country-flag">
                 </a>
-                <a (click)="change_language('en')">
-                    <img src="icon/gb.webp" alt="english" class="country-flag">
+                <a (click)="change_language('en')"
+                    aria-label="Change language to english" i18n-aria-label="@@changetoenglish-header-arialabel"
+                >
+                    <img src="icon/gb.webp" alt="english" i18n-alt="@@english-flag-arialabel" class="country-flag">
                 </a>
             </li>
         </menu>
@@ -54,36 +73,40 @@
     <nav class="menu-desktop">
         <menu class="menu-desktop-list">
             <li>
-                <a href="" class="menu-item">
+                <a i18n routerLink="/" fragment="hero" class="menu-item">
                     Home
                 </a>
             </li>
             <li>
-                <a href="#benefits" class="menu-item">
+                <a i18n routerLink="/" fragment="benefits" class="menu-item">
                     Benefits
                 </a>
             </li>
             <li>
-                <a href="#product" class="menu-item">
+                <a i18n routerLink="/" fragment="product" class="menu-item">
                     Product
                 </a>
             </li>
             <li>
-                <a href="#contact" class="menu-item">
+                <a i18n routerLink="/" fragment="contact" class="menu-item">
                     Contact us
                 </a>
             </li>
             <li>
-                <a href="/login" class="menu-item">
+                <a i18n routerLink="/login" class="menu-item">
                     Client area
                 </a>
             </li>
             <li class="languages">
-                <a (click)="change_language('es')">
-                    <img src="icon/es.webp" alt="español" class="country-flag">
+                <a (click)="change_language('es')"
+                    aria-label="Change language to spanish" i18n-aria-label="@@changetospanish-header-arialabel"
+                >
+                    <img src="icon/es.webp" alt="spanish" i18n-alt="@@spanish-flag-arialabel" class="country-flag">
                 </a>
-                <a (click)="change_language('en')">
-                    <img src="icon/gb.webp" alt="english" class="country-flag">
+                <a (click)="change_language('en')"
+                    aria-label="Change language to english" i18n-aria-label="@@changetoenglish-header-arialabel"
+                >
+                    <img src="icon/gb.webp" alt="english" i18n-alt="@@english-flag-arialabel" class="country-flag">
                 </a>
             </li>
         </menu>

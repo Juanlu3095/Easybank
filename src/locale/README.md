@@ -126,6 +126,8 @@ When translating files, you need to add where <source> tag is in .xlf files the 
 </trans-unit>
 ```
 
+If two or more elements with an i18n attributes has the same id, all of them will be inside the same trans-unit tag element.
+
 ## How to serve web app in production or development
 
 As mentioned before, when using the 'ng serve' command in local, you can only use one locale as stated in Angular documentation.
