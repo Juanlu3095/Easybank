@@ -1,6 +1,6 @@
 <header id="header">
     <div class="logo-app">
-        <a href="" aria-label="Go to home page" i18n-aria-label="@@gotohome-header-arialabel">
+        <a href="" aria-label="Go to home page" i18n-aria-label="@@gotohome-logo-mobile-header-arialabel">
             <img src="logo/logo_blanco_sinfondo.png" alt="logo-easybank" class="logo-img">
         </a>
     </div>
@@ -17,7 +17,7 @@
             <li>
                 <a class="menu-item" routerLink="/" fragment="hero" (click)="close_mobile_menu()"
                     i18n i18n-routerLink="link-home-header"
-                    aria-label="Go to home" i18n-aria-label="@@gotohome-header-arialabel"
+                    aria-label="Go to home" i18n-aria-label="@@gotohome-mobile-header-arialabel"
                 >
                     Home
                 </a>
@@ -25,7 +25,7 @@
              <li>
                 <a class="menu-item" routerLink="/" fragment="benefits" (click)="close_mobile_menu()"
                     i18n i18n-routerLink="link-benefits-header"
-                    aria-label="Go to benefits" i18n-aria-label="@@gotobenefits-header-arialabel"
+                    aria-label="Go to benefits" i18n-aria-label="@@gotobenefits-mobile-header-arialabel"
                 >
                     Benefits
                 </a>
@@ -33,7 +33,7 @@
              <li>
                 <a class="menu-item" routerLink="/" fragment="product" (click)="close_mobile_menu()"
                     i18n i18n-routerLink="link-product-header"
-                    aria-label="Go to product" i18n-aria-label="@@gotoproduct-header-arialabel"
+                    aria-label="Go to product" i18n-aria-label="@@gotoproduct-mobile-header-arialabel"
                 >
                     Product
                 </a>
@@ -41,7 +41,7 @@
              <li>
                 <a class="menu-item" routerLink="/" fragment="product" (click)="close_mobile_menu()"
                     i18n i18n-routerLink="link-contact-header"
-                    aria-label="Go to contact" i18n-aria-label="@@gotocontact-header-arialabel"
+                    aria-label="Go to contact" i18n-aria-label="@@gotocontact-mobile-header-arialabel"
                 >
                     Contact us
                 </a>
@@ -49,7 +49,7 @@
              <li>
                 <a class="menu-item" routerLink="" (click)="close_mobile_menu()"
                     i18n i18n-routerLink="link-clientarea-header"
-                    aria-label="Go to client area" i18n-aria-label="@@gotoclientarea-header-arialabel"
+                    aria-label="Go to client area" i18n-aria-label="@@gotoclientarea-mobile-header-arialabel"
                 >
                     Client area
                 </a>
@@ -73,27 +73,37 @@
     <nav class="menu-desktop">
         <menu class="menu-desktop-list">
             <li>
-                <a i18n routerLink="/" fragment="hero" class="menu-item">
+                <a i18n routerLink="/" fragment="hero" class="menu-item"
+                   aria-label="Go to home page" i18n-aria-label="@@gotohome-header-arialabel"
+                >
                     Home
                 </a>
             </li>
             <li>
-                <a i18n routerLink="/" fragment="benefits" class="menu-item">
+                <a i18n routerLink="/" fragment="benefits" class="menu-item"
+                   aria-label="Go to benefits page" i18n-aria-label="@@gotobenefits-header-arialabel"
+                >
                     Benefits
                 </a>
             </li>
             <li>
-                <a i18n routerLink="/" fragment="product" class="menu-item">
+                <a i18n routerLink="/" fragment="product" class="menu-item"
+                   aria-label="Go to product page" i18n-aria-label="@@gotoproduct-header-arialabel"
+                >
                     Product
                 </a>
             </li>
             <li>
-                <a i18n routerLink="/" fragment="contact" class="menu-item">
+                <a i18n routerLink="/" fragment="contact" class="menu-item"
+                   aria-label="Go to contact page" i18n-aria-label="@@gotocontact-header-arialabel"
+                >
                     Contact us
                 </a>
             </li>
             <li>
-                <a i18n routerLink="/login" class="menu-item">
+                <a i18n routerLink="/login" class="menu-item"
+                   aria-label="Go to client area page" i18n-aria-label="@@gotoclientarea-header-arialabel"
+                >
                     Client area
                 </a>
             </li>

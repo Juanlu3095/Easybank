@@ -24,7 +24,7 @@ To create locale files, specific tags must be used to point out what to translat
 
 ```html
 <p i18n>
-    Easybank  - All rights reserved
+    Easybank - All rights reserved
 </p>
 ```
 
@@ -77,6 +77,28 @@ With this you can put the links in html like this:
   Legal notice
 </a>
 ```
+
+And to put an id to that i18n tag:
+
+```html
+<a i18n i18n-routerLink="legal-notice-link" routerLink="/legal-notice">
+  Legal notice
+</a>
+```
+
+so .xlf file will have this id:
+
+```xlf
+<trans-unit id="legal-notice-link" datatype="html">
+  .
+  .
+  .
+</trans-unit>
+```
+
+The id identifier of the attribute must be the same or i18n will not detect it. For example in routerLink case,
+must be i18n-routerLink and not i18n-routerlink. It is sensible to uppercase.
+Id values cannot be repeated.
 
 ## How to create translation files
 
