@@ -1094,6 +1094,296 @@
           <context context-type="linenumber">97,98</context>
         </context-group>
       </trans-unit>
+      
+      <!-- COOKIE POLICY -->
+      <trans-unit id="cookies-h1" datatype="html">
+        <source>Cookie Policy</source>
+        <target>Política de cookies</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/cookie-policy/cookie-policy.html</context>
+          <context context-type="linenumber">8,10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="cookies-1" datatype="html">
+        <source>I. INTRODUCTION</source>
+        <target>I. INTRODUCCIÓN</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/cookie-policy/cookie-policy.html</context>
+          <context context-type="linenumber">11,12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1500177324804057050" datatype="html">
+        <source> 
+          In accordance with Article 22.2 of Law 34/2002, of 11 July, on Information Society Services and Electronic Commerce (LSSI-CE),
+          as well as Regulation (EU) 2016/679 of the European Parliament and of the Council (GDPR), this website informs users about the
+          use of cookies. 
+        </source>
+        <target>
+          En cumplimiento de lo dispuesto en el artículo 22.2 de la Ley 34/2002, de 11 de julio, de Servicios de la Sociedad de la Información y del Comercio
+          Electrónico (LSSI-CE), así como en el Reglamento (UE) 2016/679 del Parlamento Europeo y del Consejo (RGPD), esta página web informa a los usuarios
+          sobre el uso de cookies.
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/cookie-policy/cookie-policy.html</context>
+          <context context-type="linenumber">13,14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="cookies-2" datatype="html">
+        <source>II. WHAT ARE COOKIES?</source>
+        <target>II. ¿QUÉ SON LAS COOKIES?</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/cookie-policy/cookie-policy.html</context>
+          <context context-type="linenumber">18,19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2877803660288584135" datatype="html">
+        <source> 
+          Cookies are small text files that are downloaded to the user&apos;s device when they access certain websites.
+          Their main purpose is to ensure the proper functioning of the website, remember user preferences and improve
+          the browsing experience. Cookies do not contain specific personal information and are automatically deleted
+          once their validity period expires.
+        </source>
+        <target>
+          Las cookies son pequeños archivos de texto que se descargan en el dispositivo del usuario al acceder a determinadas páginas web. Su principal finalidad
+          es garantizar el correcto funcionamiento de la página web, recordar las preferencias del usuario y mejorar su experiencia de navegación. Las cookies no
+          contienen información personal específica y se eliminan automáticamente tras su periodo de validez.
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/cookie-policy/cookie-policy.html</context>
+          <context context-type="linenumber">20,22</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="cookies-3" datatype="html">
+        <source>III. COOKIES USED ON THIS WEBSITE</source>
+        <target>III. COOKIES UTILIZADAS EN EL SITIO WEB</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/cookie-policy/cookie-policy.html</context>
+          <context context-type="linenumber">25,26</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6319404991398238285" datatype="html">
+        <source> 
+          This Website uses only one cookie for the purpose of managing user sessions. 
+          Its characteristics are detailed below: 
+        </source>
+        <target> 
+          Este Sitio Web utiliza únicamente una cookie con la finalidad de gestionar las sesiones 
+          de usuario. A continuación, se detallan sus características: 
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/cookie-policy/cookie-policy.html</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7757417152844446495" datatype="html">
+        <source>Cookie name: _easy_tk</source>
+        <target>Nombre de la cookie: _easy_tk</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/cookie-policy/cookie-policy.html</context>
+          <context context-type="linenumber">30,31</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="904177282416517959" datatype="html">
+        <source>Purpose: To manage the session of the authenticated user on the Website.</source>
+        <target>Finalidad: Gestionar la sesión del usuario autenticado en el Sitio web.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/cookie-policy/cookie-policy.html</context>
+          <context context-type="linenumber">31,32</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="210425367096033431" datatype="html">
+        <source>Duration: 30 minutes from its creation or last update.</source>
+        <target>Duración: 30 minutos desde su creación o última actualización.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/cookie-policy/cookie-policy.html</context>
+          <context context-type="linenumber">32,33</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1193108399120942624" datatype="html">
+        <source>Ownership: First-party (managed directly by the Website).</source>
+        <target>Titularidad: Propia (gestionada directamente por el Sitio Web).</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/cookie-policy/cookie-policy.html</context>
+          <context context-type="linenumber">33,34</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="cookies-4" datatype="html">
+        <source>IV. COOKIE MANAGEMENT</source>
+        <target>IV. GESTIÓN DE COOKIES</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/cookie-policy/cookie-policy.html</context>
+          <context context-type="linenumber">36,37</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8367611590785104728" datatype="html">
+        <source> 
+          Browsers can be configured to notify users when cookies are received and, if desired, to prevent
+          them from being installed on their devices. Users can also check which cookies are stored in their
+          browsers and their expiration dates, and delete them if they wish. For further information, please
+          refer to your browser&apos;s instructions and user guides: 
+        </source>
+        <target>
+          Se pueden configurar los diferentes navegadores para avisar al usuario de la recepción de cookies y, 
+          si se desea, impedir su instalación en el equipo. Asimismo, el usuario puede revisar en su navegador
+          qué cookies tiene instaladas y cuál es el plazo de caducidad de las mismas, pudiendo eliminarlas. Para
+          ampliar esta información consulte las instrucciones y manuales de su navegador:
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/cookie-policy/cookie-policy.html</context>
+          <context context-type="linenumber">38,40</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5345154270994045269" datatype="html">
+        <source> For more information on managing cookies in Google Chrome: </source>
+        <target> Para más información sobre la gestión de cookies en Google Chrome: </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/cookie-policy/cookie-policy.html</context>
+          <context context-type="linenumber">44</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="arialabel-chrome-cookiepolicy" datatype="html">
+        <source>See cookies administration in Chrome</source>
+        <target>Ver administración de cookies en Chrome</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/cookie-policy/cookie-policy.html</context>
+          <context context-type="linenumber">47,49</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8860156174658142740" datatype="html">
+        <source> For more information on managing cookies in Internet Explorer: </source>
+        <target> Para más información sobre la gestión de cookies en Internet Explorer: </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/cookie-policy/cookie-policy.html</context>
+          <context context-type="linenumber">54</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="arialabel-explorer-cookiepolicy" datatype="html">
+        <source>See cookies administration in Internet Explorer</source>
+        <target>Ver administración de cookies en Internet Explorer</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/cookie-policy/cookie-policy.html</context>
+          <context context-type="linenumber">57,59</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8936876092016580877" datatype="html">
+        <source> For more information on managing cookies in Mozilla Firefox: </source>
+        <target> Para más información sobre el manejo de cookies en Mozilla Firefox: </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/cookie-policy/cookie-policy.html</context>
+          <context context-type="linenumber">64</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="arialabel-firefox-cookiepolicy" datatype="html">
+        <source>See cookies administration in Firefox</source>
+        <target>Ver administración de cookies en Firefox</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/cookie-policy/cookie-policy.html</context>
+          <context context-type="linenumber">67,69</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7326009156344173829" datatype="html">
+        <source> For more information on managing cookies in Safari: </source>
+        <target> Para más información sobre la gestión de cookies en Safari: </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/cookie-policy/cookie-policy.html</context>
+          <context context-type="linenumber">74</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="arialabel-safari-cookiepolicy" datatype="html">
+        <source>See cookies administration in Safari</source>
+        <target>Ver administración de cookies en Safari</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/cookie-policy/cookie-policy.html</context>
+          <context context-type="linenumber">77,79</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5583060575479609917" datatype="html">
+        <source> For more information on managing cookies in Opera: </source>
+        <target> Para más información sobre la gestión de cookies en Opera: </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/cookie-policy/cookie-policy.html</context>
+          <context context-type="linenumber">84</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="arialabel-opera-cookiepolicy" datatype="html">
+        <source>See cookies administration in Opera</source>
+        <target>Ver administración de cookies en Opera</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/cookie-policy/cookie-policy.html</context>
+          <context context-type="linenumber">87,89</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8141084922347890248" datatype="html">
+        <source> If you wish to stop being followed by Google Analytics tracking, please visit: </source>
+        <target> Si desea dejar de ser seguido por Google Analytics visite: </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/cookie-policy/cookie-policy.html</context>
+          <context context-type="linenumber">94</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="arialabel-analytics-cookiepolicy" datatype="html">
+        <source>See how to stop Google Analytics from collecting data</source>
+        <target>Ver cómo hacer que Google Analytics deje de obtener datos</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/cookie-policy/cookie-policy.html</context>
+          <context context-type="linenumber">97,99</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5299871398050510369" datatype="html">
+        <source> It is important to note that disabling strictly necessary cookies may affect the proper functioning of the Website. </source>
+        <target>
+          Es importante destacar que la desactivación de cookies estrictamente necesarias puede afectar al correcto funcionamiento del Sitio Web.
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/cookie-policy/cookie-policy.html</context>
+          <context context-type="linenumber">103</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="cookies-5" datatype="html">
+        <source>V. UPDATES AND CHANGES TO THE COOKIE POLICY</source>
+        <target>V. ACTUALIZACIONES Y CAMBIOS EN LA POLÍTICA DE COOKIES</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/cookie-policy/cookie-policy.html</context>
+          <context context-type="linenumber">106,107</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7022548097693441398" datatype="html">
+        <source> 
+          The owner of the Website reserves the right to modify this Cookie Policy in accordance
+          with legal or technical requirements. Users are advised to review this policy periodically
+          to stay informed about how and why cookies are used. 
+        </source>
+        <target>
+          El titular del Sitio Web se reserva el derecho de modificar esta Política de Cookies en función
+          de requisitos legales o técnicos. Se recomienda a los usuarios revisar esta política de forma periódica
+          para estar informados sobre cómo y para qué se utilizan las cookies.
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/cookie-policy/cookie-policy.html</context>
+          <context context-type="linenumber">108,109</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="cookies-6" datatype="html">
+        <source>VI. CONTACT</source>
+        <target>VI. CONTACTO</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/cookie-policy/cookie-policy.html</context>
+          <context context-type="linenumber">112,113</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5421097739487061256" datatype="html">
+        <source> 
+          If you have any questions about this Cookie Policy, you can contact us by email at: jcooldevelopment@gmail.com. 
+        </source>
+        <target>
+          Si tiene alguna duda o consulta sobre esta Política de Cookies, puede ponerse en contacto con nosotros a través
+          del correo electrónico: jcooldevelopment&#64;gmail.com.
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/cookie-policy/cookie-policy.html</context>
+          <context context-type="linenumber">114,115</context>
+        </context-group>
+      </trans-unit>
     </body>
   </file>
 </xliff>

@@ -204,3 +204,4 @@ See also:
 - https://medium.com/@yusufsarikaya023/quick-trip-how-to-localize-angular-router-with-different-language-d8b85b767802
 - https://stackoverflow.com/questions/43904085/angular-routing-is-it-possible-to-use-different-path-strings-for-different-la (For routing)
 - https://stackoverflow.com/questions/45722950/how-can-i-reuse-i18n-translation-keys-in-angular
+- https://stackoverflow.com/questions/53743180/angular-i18n-for-text-containing-routerlink-and-requires-different-word-order
